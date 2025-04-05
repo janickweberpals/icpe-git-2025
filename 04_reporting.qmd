@@ -12,7 +12,7 @@ editor: visual
 
 ## Slide deck
 
-<iframe src="https://janickweberpals.github.io/quarto_icpe_2024/index.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe src="https://janickweberpals.github.io/quarto_icpe_2025/index.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
 </iframe>
 
