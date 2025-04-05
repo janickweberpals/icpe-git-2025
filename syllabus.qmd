@@ -1,0 +1,57 @@
+---
+title: "Syllabus"
+output: html_document
+date: "`r Sys.Date()`"
+date-format: long
+code-fold: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(googlesheets4)
+library(gt)
+library(dplyr)
+```
+
+This site provides some further information on the objectives and syllabus/organization of the course.
+
+> Course Date: August 25, 2024 (9am-12:30pm, Berlin)
+
+## Course Objectives {.unnumbered}
+
+Attendees of this advanced methods couse will learn how to implement transparent and reproducible workflows across the real-world evidence study lifecycle.
+
+```{mermaid}
+%%| label: fig-Objectives
+%%| fig-cap: RWE study liefcycle.
+flowchart TB
+A(Design stage) --> B
+B(Analysis execution stage) --> C
+C(Reporting stage)
+```
+
+-   [**Design stage:**]{.underline} Incorporate **reproducible reporting of key study parameters at a study design and planning stage** using the HARPER protocol
+
+-   [**Analysis stage:**]{.underline} **Version control and share analytic code at the analysis and execution stage** of the study using git and Github
+
+-   [**Reporting stage:**]{.underline} Use **literate programming** by combining narrative language, analytic code and study results for **transparent and reproducible study reporting**
+
+## Syllabus {.unnumbered}
+
+In this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following **FAIR (Findable, Accessible, Interoperable and Reproducible)** principles.
+
+```{r}
+#| label: tbl-timetable
+#| tbl-cap: "Detailed course timetable"
+#| message: false
+#| echo: false
+
+gs4_deauth()
+read_sheet(
+  ss = Sys.getenv("timetable_url")
+  ) |> 
+  filter(! Time %in% "Total") |> 
+  gt() |> 
+  cols_align(align = "left")
+```
