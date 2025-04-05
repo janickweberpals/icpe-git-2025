@@ -9,7 +9,7 @@ number-sections: false
 
 ![](icpe24_logo.png){fig-align="center" width="728"}
 
-> Course Date: August 25, 2024 (9am-12:30pm, Berlin)
+> Course Date: August 23, 2025, 2:30pm - 6:00pm  (Walter E. Washington Convention Center, Washington D.C., USA)
 
 ## About {.unnumbered}
 
@@ -19,8 +19,8 @@ As many stakeholders (funding agencies, journals, regulators, data providers) in
 
 :::: {.content-visible when-format="html"}
 ::: callout-tip
--   Course material: Course materials can be found at <https://github.com/janickweberpals/icpe-git-2024>
--   Poll everywhere survey can be found at <https://pollev.com/janickweberpals917>
+-   Course material: Course materials can be found at <https://github.com/janickweberpals/icpe-git-2025>
+-   Poll everywhere survey can be found at ...
 :::
 ::::
 
@@ -46,15 +46,19 @@ As many stakeholders (funding agencies, journals, regulators, data providers) in
 
 This course is designed for participants both new and experienced in pharmacoepidemiology. Whilst this may be most relevant for people who work hands-on with healthcare databases and so have some coding experience, any levels of expertise are welcome.
 
-:::: {.content-visible when-format="html"}
+::: {.content-visible when-format="html"}
 ::: callout-important
 Course participants should have a good understanding of basic pharmacoepidemiologic principles and ideally some experience with any statistical programming language.
 :::
-::::
+:::
 
-## Helpful pre-reads {.unnumbered}
+## Helpful and recommended pre- and post-reads {.unnumbered}
+
+[Pharmacoepidemiology and Drug Safety Special Issue on Pharmacoepidemiology Research Reproducibility](https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1099-1557.research-reproducibility)
 
 Weberpals J and Wang SV. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. [doi: 10.1002/pds.5740.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5740)
+
+Tazare J, Wang SV, Gini R, Prieto-Alhambra D, Arlett P, Morales Leaver DR, Morton C, Logie J, Popovic J, Donegan K, Schneeweiss S, Douglas I, Schultze A. Sharing Is Caring? International Society for Pharmacoepidemiology Review and Recommendations for Sharing Programming Code. Pharmacoepidemiol Drug Saf. 2024 Sep;33(9):e5856. [doi: 10.1002/pds.5856.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5856) PMID: 39233394.
 
 Schultze A, Tazare J. The role of programming code sharing in improving the transparency of medical research. BMJ. 2023 Oct 17;383:2402. [doi: 10.1136/bmj.p2402](https://www.bmj.com/content/383/bmj.p2402.long). PMID: 37848206.
 

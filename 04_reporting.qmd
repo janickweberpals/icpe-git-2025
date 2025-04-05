@@ -40,7 +40,7 @@ editor: visual
 
     </iframe>
 
-## Quarto for reproducible medical manuscripts 
+## Quarto for reproducible medical manuscripts
 
 -   Talk by Mine Çetinkaya-Rundel on Quarto's new `manuscript` document type and how it can be used to create reproducible medical manuscripts (talk delivered at R/Medicine conference 2024)
 

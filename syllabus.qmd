@@ -51,7 +51,10 @@ gs4_deauth()
 read_sheet(
   ss = Sys.getenv("timetable_url")
   ) |> 
-  filter(! Time %in% "Total") |> 
+  mutate(across(c(Start, End), ~ format(as.POSIXct(.x, format = "%H:%M"), format = "%H:%M"))) |>
+  mutate(Time = paste0(Start, " - ", End)) |>
+  relocate(Time, .before = Topic) |>
+  select(-c(Duration, Start, End)) |> 
   gt() |> 
   cols_align(align = "left")
 ```
