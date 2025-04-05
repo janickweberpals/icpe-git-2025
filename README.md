@@ -1,4 +1,4 @@
-<img src="icpe24_logo.png" data-fig-align="center" width="256" />
+<img src="icpe25_logo.png" data-fig-align="center" width="728" />
 
 > Course Date: August 23, 2025, 2:30pm - 6:00pm (Walter E. Washington
 > Convention Center, Washington D.C., USA)
