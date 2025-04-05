@@ -1,10 +1,7 @@
----
-editor: 
-  markdown: 
-    wrap: 72
----
+<img src="icpe24_logo.png" data-fig-align="center" width="728" />
 
-<img src="icpe25_logo.png" data-fig-align="center" width="728"/>
+> Course Date: August 23, 2025, 2:30pm - 6:00pm (Walter E. Washington
+> Convention Center, Washington D.C., USA)
 
 ## About
 
@@ -27,8 +24,27 @@ practical study design templates (HARPER) and tools (git, quarto) to
 increase the transparency and reproducibility across the design,
 analysis and reporting stages of a RWE study.
 
-Course material: Course materials can be found at
-<https://janickweberpals.github.io/icpe-git-2024/>
+-   Course material: Course materials can be found at
+    <https://github.com/janickweberpals/icpe-git-2025>
+-   Poll everywhere survey can be found at …
+
+<!--#
+
+## [Intro](https://docs.google.com/presentation/d/1j6LsWOIuNQbo8jRhGsEpOGSRuvrXpox-UIweZPemCco/edit?usp=sharing){.unnumbered}
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBPAY8Qv8iCTrckw7MXAJPKfO8WtvZCSZAcnLx097G2AHk78MY-AieJqCgdGVpYNobGfemmAINFBkK/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+
+</iframe>
+
+## [Outro](https://docs.google.com/presentation/d/1PVlWnePZY7WsqlGHuZ_BCd3VBXg4vB0FmN0rq2oSx7E/edit?usp=sharing){.unnumbered}
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRZDmme11u8JNR5PgfJbucRySNw3TX2Prx9aD6iAS9XZmZZ0ui7Er3WCXiFiexn7Iap0vgyYCus4-Vh/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+
+-->
 
 ## Course requisites
 
@@ -41,12 +57,24 @@ Course participants should have a good understanding of basic
 pharmacoepidemiologic principles and ideally some experience with any
 statistical programming language.
 
-## Helpful pre-reads
+## Helpful and recommended pre- and post-reads
+
+[Pharmacoepidemiology and Drug Safety Special Issue on
+Pharmacoepidemiology Research
+Reproducibility](https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1099-1557.research-reproducibility)
 
 Weberpals J and Wang SV. The FAIRification of research in real-world
 evidence: A practical introduction to reproducible analytic workflows
 using Git and R. Pharmacoepidemiol Drug Saf. 2024 Jan;33(1):e5740. [doi:
 10.1002/pds.5740.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5740)
+
+Tazare J, Wang SV, Gini R, Prieto-Alhambra D, Arlett P, Morales Leaver
+DR, Morton C, Logie J, Popovic J, Donegan K, Schneeweiss S, Douglas I,
+Schultze A. Sharing Is Caring? International Society for
+Pharmacoepidemiology Review and Recommendations for Sharing Programming
+Code. Pharmacoepidemiol Drug Saf. 2024 Sep;33(9):e5856. [doi:
+10.1002/pds.5856.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5856)
+PMID: 39233394.
 
 Schultze A, Tazare J. The role of programming code sharing in improving
 the transparency of medical research. BMJ. 2023 Oct 17;383:2402. [doi:
@@ -66,11 +94,9 @@ Epub 2022 Oct 10. PMID: 36215113; PMCID: PMC9771861.
 This is a quarto project and R package dependencies are managed through
 the `renv` package. All packages and their versions can be viewed in the
 lockfile `renv.lock`. All required packages and the appropriate versions
-can be installed by running the following command in R/RStudio:
+can be installed by running the following command:
 
-```         
-renv::restore()
-```
+    renv::restore()
 
 ## Reproducibility
 
@@ -94,4 +120,5 @@ Overview of files and file types in this repository:
     versions used in this simulation
 -   .github - workflow files for automatic CI/CD on Github pages
 -   README - essential information about the project (README.Rmd renders
-    to README.md via update_README.R after each `quarto render` command)
+    to README.md via update\_README.R after each `quarto render`
+    command)
