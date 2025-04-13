@@ -1,11 +1,11 @@
 project:
   type: book
+  pre-render: _pre-render.R
     
 book:
   title: "Let's git it started"
   subtitle: "Transparency and reproducibility across the RWE study lifecycle with HARPER, Git and GitHub Copilot"
   author: "Janick Weberpals <br> Shirley V. Wang <br> Anna Schultze <br> John Tazare"
-  description: |
     
     
   chapters:
