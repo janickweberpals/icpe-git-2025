@@ -16,10 +16,6 @@ editor: visual
 
 </iframe>
 
-```{=html}
-<iframe width="780" height="500" src="04a_quarto_presentation.html" title="Webpage example"></iframe>
-```
-
 ## Example study report created using Quarto
 
 -   [`https://drugepi.gitlab-pages.partners.org/hdmi-manuscript/`{=html}](https://drugepi.gitlab-pages.partners.org/hdmi-manuscript/)
