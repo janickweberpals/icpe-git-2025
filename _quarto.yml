@@ -15,7 +15,7 @@ book:
     - 01_protocol.qmd
     - 02_intro.qmd
     - 03_copilot.qmd
-    - 05_workshop.qmd
+    - 04_workshop.qmd
     - 05_reporting.qmd
 
   reader-mode: true
