@@ -1,0 +1,24 @@
+---
+title: "Introduction to GitHub Copilot"
+author:  Janick Weberpals
+date: "`r Sys.Date()`"
+date-format: long
+engine: knitr
+# bibliography: references.bib
+# csl: epidemiology.csl
+editor: visual
+---
+
+## Session Introduction
+
+...
+
+## ISPE 2025 Slides
+
+<iframe src="03a_copilot_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Git glossary
+
+## Additional Resources
+
+...

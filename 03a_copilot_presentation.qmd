@@ -1,0 +1,57 @@
+---
+title: "GitHub Copilot"
+subtitle: "An introduction to AgenticAI assistants"
+date: "August 23, 2025"
+date-format: long 
+author:
+  - name: Janick Weberpals, RPh, PhD
+    corresponding: true
+    orcid: 0000-0003-0404-7394
+    email: jweberpals.academic@gmail.com
+    url: janickweberpals.github.io
+    affiliations:
+      - name: 
+        address: 
+        city: 
+format:
+  revealjs: 
+    theme: custom.scss
+    logo: icpe25_logo.png
+    footer: Quarto - An introduction to GitHub Copilot
+    incremental: false 
+    width: 1280
+    height: 720
+    transition: fade
+code-summary: "Show code"
+code-line-numbers: true
+  
+toc: true
+toc-depth: 1
+slide-number: true
+embed-resources: true
+  
+bibliography: references.bib
+csl: pharmacoepidemiology-and-drug-safety.csl
+---
+
+# Problem statement
+
+> ...
+
+## Problem statement (i) {.incremental}
+
+> ...
+
+::: incremental
+-   ...
+-   ...
+:::
+
+
+
+
+## Curious?
+
+...
+
+## **References**

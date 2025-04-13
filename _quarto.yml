@@ -1,6 +1,6 @@
 project:
   type: book
-  pre-render: 
+  pre-render: # pre-render Quarto presentations
   - _pre_render.R
     
 book:
@@ -14,8 +14,9 @@ book:
     - syllabus.qmd
     - 01_protocol.qmd
     - 02_intro.qmd
-    - 03_workshop.qmd
-    - 04_reporting.qmd
+    - 03_copilot.qmd
+    - 05_workshop.qmd
+    - 05_reporting.qmd
 
   reader-mode: true
   repo-url: https://github.com/janickweberpals/icpe-git-2025

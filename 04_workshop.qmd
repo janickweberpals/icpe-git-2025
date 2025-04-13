@@ -1,0 +1,85 @@
+---
+title: "Git interactive hands-on workshop"
+author:  John Tazare
+date: "`r Sys.Date()`"
+date-format: long
+engine: knitr
+# bibliography: references.bib
+# csl: epidemiology.csl
+editor: visual
+---
+
+## Session Introduction
+
+In this session, we will build on the previous 'Introduction to `Git`' session. You will get hands-on experience using `Git`, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.
+
+## ICPE 2024 Slides
+
+<iframe src="https://docs.google.com/presentation/d/1-P3m_fHSpxvS_X0Ju0-jU-HcDH0vbN-5/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
+
+## Workshop Materials
+
+The following section provides details on the necessary setup steps for participating in this workshop.
+
+### Software Installation
+
+You will need to install `Git` (and optionally GitHub Desktop, if you do not plan to follow along using the command line):
+
+-   Main `Git` website to download (with guides for Mac, Windows and Linux) and learn more about `Git:` <https://git-scm.com>
+
+-   GitHub Desktop App: <https://desktop.github.com/>
+
+### Git Configuration
+
+On first-time use, name and email address are required to configure `Git`. This differs by whether you are using command line or GitHub Desktop
+
+-   GitHub Desktop: You will be prompted to configure `Git` when first opening the application.
+
+-   Command Line: You will need to type the followiing into the console (updating to your login details):
+
+```         
+git config --global user.name "<username>"
+git config --global user.email xxx@example.com
+```
+
+### GitHub Account
+
+To participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.
+
+Otherwise, please create one following the steps below.
+
+1.  Visit [GitHub](https://github.com).
+2.  Click the "Sign up" button.
+3.  Provide an email address and password.
+
+Note: More generally, we recommend that you [setup two-factor authentication to secure your account](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa). **(This is not essential for the workshop).**
+
+### Files
+
+-   Please download the following two files:
+    -   [Instructions](https://drive.google.com/file/d/14lGUbbt6pTvxAs_CihipR9T0olEExtmM/view?usp=sharing)
+    -   [Project files](https://drive.google.com/file/d/1BeYgo_0jIcD8FoLEpdsfTvZ4vkjoJzx5/view?usp=share_link)
+
+### Questions
+
+During the session, you are welcome to post questions in this [Google Document](https://docs.google.com/document/d/1BT_AqfW0Emhs1VmHBTRnyuzXH57In9R_WTT1Zj0Irm4/edit?usp=sharing) (which the tutors will monitor).
+
+## Additional Resources
+
+-   Weberpals, J. & Wang, S. V. [The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R](https://doi.org/10.1002/pds.5740). *Pharmacoepidemiol. Drug Saf.* (2024)
+
+-   Morton, C. *et al.* [Software development skills for health data researchers](https://informatics.bmj.com/content/29/1/e100488). *BMJ Health Care Inform.* **29**, e100488 (2022).
+
+-   Bryan, J. [Excuse Me, Do You Have a Moment to Talk about Version Control?](https://peerj.com/preprints/3159) *PeerJ Preprints* (2017)
+
+-   Webpages:
+
+    -   [Comprehensive Documentation for Github Desktop](https://docs.github.com/en/desktop/overview)
+    -   [Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) with common `Git` commands:
+    -   [Git manual](https://www.atlassian.com/git) by Atlassian (provider of the `Bitbucket` platform)
+    -   Coursera courses:
+        -   [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github) (Google)
+        -   [Version Control with Git](https://www.coursera.org/learn/version-control-with-git) (Atlassian)
+        -   [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github) (IBM)
