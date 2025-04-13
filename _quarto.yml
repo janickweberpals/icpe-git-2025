@@ -1,6 +1,7 @@
 project:
   type: book
-  pre-render: _pre_render.R
+  pre-render: 
+  - _pre_render.R
     
 book:
   title: "Let's git it started"
@@ -29,7 +30,6 @@ format:
     page-layout: full
     link-external-icon: true
     link-external-newwindow: true
-    embed-resources: true
     # comments:
     #   hypothesis: true
 
