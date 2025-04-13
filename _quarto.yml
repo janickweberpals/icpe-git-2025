@@ -1,6 +1,6 @@
 project:
   type: book
-  pre-render: _pre-render.R
+  pre-render: _pre_render.R
     
 book:
   title: "Let's git it started"
