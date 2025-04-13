@@ -244,7 +244,7 @@
     "href": "04_reporting.html#setting-up-quarto-with-sas-and-stata",
     "title": "6  An introduction to Quarto",
     "section": "6.3 Setting up Quarto with SAS and STATA",
-    "text": "6.3 Setting up Quarto with SAS and STATA\n\nSetup with SAS (setup, demo) and STATA\n\n\nAchieving a seamless workflow between R, Python and SAS from within RStudio\n\n\nSAS engine via Quarto",
+    "text": "6.3 Setting up Quarto with SAS and STATA\n\nSetup with SAS (setup, demo) and STATA\n\n\n\n\nAchieving a seamless workflow between R, Python and SAS from within RStudio\n\n\nSAS engine via Quarto",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
