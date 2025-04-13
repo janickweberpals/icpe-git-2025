@@ -180,83 +180,123 @@
     ]
   },
   {
-    "objectID": "03_workshop.html",
-    "href": "03_workshop.html",
-    "title": "5  Git interactive hands-on workshop",
+    "objectID": "03_copilot.html",
+    "href": "03_copilot.html",
+    "title": "5  Introduction to GitHub Copilot",
     "section": "",
-    "text": "5.1 Session Introduction\nIn this session, we will build on the previous ‘Introduction to Git’ session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.",
+    "text": "5.1 Session Introduction\n…",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
     ]
   },
   {
-    "objectID": "03_workshop.html#icpe-2024-slides",
-    "href": "03_workshop.html#icpe-2024-slides",
-    "title": "5  Git interactive hands-on workshop",
-    "section": "5.2 ICPE 2024 Slides",
-    "text": "5.2 ICPE 2024 Slides",
+    "objectID": "03_copilot.html#ispe-2025-slides",
+    "href": "03_copilot.html#ispe-2025-slides",
+    "title": "5  Introduction to GitHub Copilot",
+    "section": "5.2 ISPE 2025 Slides",
+    "text": "5.2 ISPE 2025 Slides",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
     ]
   },
   {
-    "objectID": "03_workshop.html#workshop-materials",
-    "href": "03_workshop.html#workshop-materials",
-    "title": "5  Git interactive hands-on workshop",
-    "section": "5.3 Workshop Materials",
-    "text": "5.3 Workshop Materials\nThe following section provides details on the necessary setup steps for participating in this workshop.\n\n5.3.1 Software Installation\nYou will need to install Git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):\n\nMain Git website to download (with guides for Mac, Windows and Linux) and learn more about Git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n5.3.2 Git Configuration\nOn first-time use, name and email address are required to configure Git. This differs by whether you are using command line or GitHub Desktop\n\nGitHub Desktop: You will be prompted to configure Git when first opening the application.\nCommand Line: You will need to type the followiing into the console (updating to your login details):\n\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email xxx@example.com\n\n\n5.3.3 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. (This is not essential for the workshop).\n\n\n5.3.4 Files\n\nPlease download the following two files:\n\nInstructions\nProject files\n\n\n\n\n5.3.5 Questions\nDuring the session, you are welcome to post questions in this Google Document (which the tutors will monitor).",
+    "objectID": "03_copilot.html#git-glossary",
+    "href": "03_copilot.html#git-glossary",
+    "title": "5  Introduction to GitHub Copilot",
+    "section": "5.3 Git glossary",
+    "text": "5.3 Git glossary",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
     ]
   },
   {
-    "objectID": "03_workshop.html#additional-resources",
-    "href": "03_workshop.html#additional-resources",
-    "title": "5  Git interactive hands-on workshop",
+    "objectID": "03_copilot.html#additional-resources",
+    "href": "03_copilot.html#additional-resources",
+    "title": "5  Introduction to GitHub Copilot",
     "section": "5.4 Additional Resources",
-    "text": "5.4 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
+    "text": "5.4 Additional Resources\n…",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
     ]
   },
   {
-    "objectID": "04_reporting.html",
-    "href": "04_reporting.html",
-    "title": "6  An introduction to Quarto",
+    "objectID": "04_workshop.html",
+    "href": "04_workshop.html",
+    "title": "6  Git interactive hands-on workshop",
     "section": "",
-    "text": "6.1 Slide deck",
+    "text": "6.1 Session Introduction\nIn this session, we will build on the previous ‘Introduction to Git’ session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
   {
-    "objectID": "04_reporting.html#example-study-report-created-using-quarto",
-    "href": "04_reporting.html#example-study-report-created-using-quarto",
-    "title": "6  An introduction to Quarto",
-    "section": "6.2 Example study report created using Quarto",
-    "text": "6.2 Example study report created using Quarto\n\nhttps://drugepi.gitlab-pages.partners.org/hdmi-manuscript/",
+    "objectID": "04_workshop.html#icpe-2024-slides",
+    "href": "04_workshop.html#icpe-2024-slides",
+    "title": "6  Git interactive hands-on workshop",
+    "section": "6.2 ICPE 2024 Slides",
+    "text": "6.2 ICPE 2024 Slides",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
   {
-    "objectID": "04_reporting.html#setting-up-quarto-with-sas-and-stata",
-    "href": "04_reporting.html#setting-up-quarto-with-sas-and-stata",
-    "title": "6  An introduction to Quarto",
-    "section": "6.3 Setting up Quarto with SAS and STATA",
-    "text": "6.3 Setting up Quarto with SAS and STATA\n\nSetup with SAS (setup, demo) and STATA\n\n\n\n\nAchieving a seamless workflow between R, Python and SAS from within RStudio\n\n\nSAS engine via Quarto",
+    "objectID": "04_workshop.html#workshop-materials",
+    "href": "04_workshop.html#workshop-materials",
+    "title": "6  Git interactive hands-on workshop",
+    "section": "6.3 Workshop Materials",
+    "text": "6.3 Workshop Materials\nThe following section provides details on the necessary setup steps for participating in this workshop.\n\n6.3.1 Software Installation\nYou will need to install Git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):\n\nMain Git website to download (with guides for Mac, Windows and Linux) and learn more about Git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n6.3.2 Git Configuration\nOn first-time use, name and email address are required to configure Git. This differs by whether you are using command line or GitHub Desktop\n\nGitHub Desktop: You will be prompted to configure Git when first opening the application.\nCommand Line: You will need to type the followiing into the console (updating to your login details):\n\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email xxx@example.com\n\n\n6.3.3 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. (This is not essential for the workshop).\n\n\n6.3.4 Files\n\nPlease download the following two files:\n\nInstructions\nProject files\n\n\n\n\n6.3.5 Questions\nDuring the session, you are welcome to post questions in this Google Document (which the tutors will monitor).",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
   {
-    "objectID": "04_reporting.html#quarto-for-reproducible-medical-manuscripts",
-    "href": "04_reporting.html#quarto-for-reproducible-medical-manuscripts",
-    "title": "6  An introduction to Quarto",
-    "section": "6.4 Quarto for reproducible medical manuscripts",
-    "text": "6.4 Quarto for reproducible medical manuscripts\n\nTalk by Mine Çetinkaya-Rundel on Quarto’s new manuscript document type and how it can be used to create reproducible medical manuscripts (talk delivered at R/Medicine conference 2024)\n&lt;/li&gt;\n&lt;/ul&gt;\n\n\nThe slide deck and more information can be found at https://quarto.org/docs/blog/posts/2024-04-01-manuscripts-rmedicine/",
+    "objectID": "04_workshop.html#additional-resources",
+    "href": "04_workshop.html#additional-resources",
+    "title": "6  Git interactive hands-on workshop",
+    "section": "6.4 Additional Resources",
+    "text": "6.4 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "05_reporting.html",
+    "href": "05_reporting.html",
+    "title": "7  An introduction to Quarto",
+    "section": "",
+    "text": "7.1 Slide deck",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "05_reporting.html#example-study-report-created-using-quarto",
+    "href": "05_reporting.html#example-study-report-created-using-quarto",
+    "title": "7  An introduction to Quarto",
+    "section": "7.2 Example study report created using Quarto",
+    "text": "7.2 Example study report created using Quarto\n\nhttps://drugepi.gitlab-pages.partners.org/hdmi-manuscript/",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "05_reporting.html#setting-up-quarto-with-sas-and-stata",
+    "href": "05_reporting.html#setting-up-quarto-with-sas-and-stata",
+    "title": "7  An introduction to Quarto",
+    "section": "7.3 Setting up Quarto with SAS and STATA",
+    "text": "7.3 Setting up Quarto with SAS and STATA\n\nSetup with SAS (setup, demo) and STATA\n\n\n\n\nAchieving a seamless workflow between R, Python and SAS from within RStudio\n\n\nSAS engine via Quarto",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "05_reporting.html#quarto-for-reproducible-medical-manuscripts",
+    "href": "05_reporting.html#quarto-for-reproducible-medical-manuscripts",
+    "title": "7  An introduction to Quarto",
+    "section": "7.4 Quarto for reproducible medical manuscripts",
+    "text": "7.4 Quarto for reproducible medical manuscripts\n\nTalk by Mine Çetinkaya-Rundel on Quarto’s new manuscript document type and how it can be used to create reproducible medical manuscripts (talk delivered at R/Medicine conference 2024)\n&lt;/li&gt;\n&lt;/ul&gt;\n\n\nThe slide deck and more information can be found at https://quarto.org/docs/blog/posts/2024-04-01-manuscripts-rmedicine/",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>An introduction to Quarto</span>"
     ]
   }
 ]
