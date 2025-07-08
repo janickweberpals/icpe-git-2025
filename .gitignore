@@ -53,3 +53,7 @@ rsconnect/
 
 *.RProj
 /.quarto/
+
+# Movie file types
+*.mp4
+*.mov
