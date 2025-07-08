@@ -34,24 +34,101 @@ bibliography: references.bib
 csl: pharmacoepidemiology-and-drug-safety.csl
 ---
 
-# Problem statement
+# GitHub Copilot: Your AI Coding Assistant
 
-> ...
+---
 
-## Problem statement (i) {.incremental}
+## What is GitHub Copilot?
 
-> ...
+- AI-powered coding assistant by GitHub & OpenAI
+- Integrates with editors (VS Code, RStudio, etc.)
+- Suggests code, explains code, writes documentation, and more
+- Supports many languages (R, Python, SQL, etc.)
 
-::: incremental
--   ...
--   ...
-:::
+---
 
-## Example
+## How to Access Copilot
 
+- **Sign up:** [github.com/features/copilot](https://github.com/features/copilot)
+- **Requirements:** GitHub account (free trial, then subscription)
+- **Install:**
+    - In VS Code: Extensions → Search "GitHub Copilot" → Install
+    - In RStudio: Use the Copilot add-in (requires setup)
+- **Activate:** Sign in with your GitHub account
 
-## Curious?
+---
 
-...
+## Copilot Modes
 
-## **References**
+### 1. Ask
+- Chat with Copilot in natural language
+- Get code explanations, suggestions, and answers
+
+### 2. Edit
+- Select code and ask Copilot to refactor, document, or fix it
+- Example: "Make this function more efficient"
+
+### 3. Agent
+- Copilot can perform multi-step tasks (e.g., add tests, update documentation)
+- Acts as an "agent" to automate workflows
+
+---
+
+## Use Cases for Analytic Code
+
+### Development
+- Write new functions, scripts, or analyses faster
+- Generate boilerplate code for data import, cleaning, modeling
+
+### Comprehension
+- Ask Copilot to explain complex code
+- Translate code between languages (e.g., R to Python)
+
+### Review
+- Summarize code changes
+- Suggest improvements or catch potential bugs
+
+### Documentation
+- Auto-generate docstrings, comments, and README content
+
+### Testing
+- Create unit tests for your functions
+- Suggest test cases and edge scenarios
+
+---
+
+## Use Cases for Git
+
+### Tracking
+- Ask: "What changes were made in the last 5 commits?"
+- Copilot can summarize commit history and diffs
+
+### Staging & Committing
+- Guide you through staging files and making commits in VS Code
+- Suggest commit messages based on code changes
+
+### Advanced Usage
+- Help with branching, merging, resolving conflicts
+- Explain git commands and workflows
+
+---
+
+## Example: Copilot in Action
+
+- Live demo or screenshots (insert here)
+- Show Copilot suggesting code, explaining a function, or generating a commit message
+
+---
+
+## Summary
+
+- Copilot accelerates coding, learning, and collaboration
+- Useful for all research roles: epidemiologists, biostatisticians, clinicians, and more
+- Try it out in your next project!
+
+---
+
+## Questions?
+
+- [github.com/features/copilot](https://github.com/features/copilot)
+- [docs.github.com/copilot](https://docs.github.com/copilot)
