@@ -12,7 +12,9 @@ editor: visual
 
 ## Slide deck
 
-<iframe src="05a_quarto_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="05a_quarto_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
 
 ## Example study report created using Quarto
 

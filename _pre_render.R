@@ -3,6 +3,13 @@
 # Load required packages
 library(quarto)
 
+# render Introduction to ICPE 2025 course
+quarto::quarto_render(
+  input = "00_introduction.qmd",
+  output_format = "revealjs",
+  output_file = "00_introduction.html"
+  )
+
 # render GitHub Copilot presentation
 quarto::quarto_render(
   input = "03a_copilot_presentation.qmd",
