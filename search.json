@@ -20,6 +20,16 @@
     ]
   },
   {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Let’s git it started",
+    "section": "Introduction",
+    "text": "Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>README</span>"
+    ]
+  },
+  {
     "objectID": "index.html#course-requisites",
     "href": "index.html#course-requisites",
     "title": "Let’s git it started",
@@ -94,7 +104,7 @@
     "href": "syllabus.html#syllabus",
     "title": "2  Syllabus",
     "section": "Syllabus",
-    "text": "Syllabus\nIn this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following FAIR (Findable, Accessible, Interoperable and Reproducible) principles.\n\n\n\n\nTable 2.1: Detailed course timetable\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n14:30 - 14:40\nWelcome and introduction\nJanick Weberpals\nNA\n\n\n14:40 - 15:00\nDESIGN STAGE: HARPER template\nShirley V. Wang\nNA\n\n\n15:00 - 16:10\nANALYSIS STAGE: Git and GitHub\nAnna Schultze, John Tazare\nNA\n\n\n16:10 - 16:40\nCOFFEE BREAK\n-\nNA\n\n\n16:40 - 17:20\nANALYSIS STAGE: Github Copilot\nJanick Weberpals, Anna Schultze, John Tazare\nNA\n\n\n17:20 - 17:50\nREPORTING STAGE: Quarto introduction\nJanick Weberpals\nNA\n\n\n17:50 - 18:00\nCOURSE CONCLUSION\nJanick Weberpals\nNA",
+    "text": "Syllabus\nIn this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following FAIR (Findable, Accessible, Interoperable and Reproducible) principles.\n\n\n\n\nTable 2.1: Detailed course timetable\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n14:30 - 14:40\nWelcome and introduction\nJanick Weberpals\nWelcome, housekeeping, and introduction to the topic\n\n\n14:40 - 15:00\nDESIGN STAGE: HARPER template\nShirley V. Wang\nA harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)\n\n\n15:00 - 16:10\nANALYSIS STAGE: Git and GitHub\nAnna Schultze, John Tazare\nIntroduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists. This will be followed by interactive case study for part in which every course participant can try git hands-on.\n\n\n16:10 - 16:40\nCOFFEE BREAK\n-\nTake a break and enjoy a tasty coffee\n\n\n16:40 - 17:20\nANALYSIS STAGE: Github Copilot\nJanick Weberpals, Anna Schultze, John Tazare\nIntroduction to AI-based tools to support and augment code development, quality control, transparency and reproducibility\n\n\n17:20 - 17:50\nREPORTING STAGE: Quarto introduction\nJanick Weberpals\nIntroduction and examples of literate programming using the Quarto technical reporting system\n\n\n17:50 - 18:00\nCOURSE CONCLUSION\nJanick Weberpals\nFuture direction and trends & resources for where to go to learn more",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
     ]
