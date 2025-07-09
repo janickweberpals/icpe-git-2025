@@ -17,7 +17,7 @@ format:
   revealjs: 
     theme: custom.scss
     logo: icpe25_logo.png
-    footer: Quarto - An introduction to GitHub Copilot
+    footer: An introduction to GitHub Copilot
     incremental: false 
     width: 1280
     height: 720
@@ -34,9 +34,18 @@ bibliography: references.bib
 csl: pharmacoepidemiology-and-drug-safety.csl
 ---
 
-# GitHub Copilot: Your AI Coding Assistant
+## Poll (raise your hands)
 
----
+::: incremental
+- Who uses AI assistants (ChatGPT, Gemini, Claude, Mistral, ...) on a daily basis?
+
+- Who uses AI assistants for code development, QC, or improving transparency and reproducibility in your research?
+
+- Who has ever used GitHub Copilot?
+
+:::
+
+# GitHub Copilot: Your AI Coding Assistant
 
 ## What is GitHub Copilot?
 
