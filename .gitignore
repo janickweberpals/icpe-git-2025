@@ -57,3 +57,18 @@ rsconnect/
 # Movie file types
 *.mp4
 *.mov
+
+# other file types
+*.pptx
+*.docx
+*.xlsx
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.tar
+*.tgz
+*.tar.bz2
+*.tar.xz

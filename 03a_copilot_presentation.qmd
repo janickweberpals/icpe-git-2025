@@ -54,18 +54,88 @@ csl: pharmacoepidemiology-and-drug-safety.csl
 - Suggests code, explains code, writes documentation, and more
 - Supports many languages (R, Python, SQL, etc.)
 
----
+## Disclaimer
+
+::: callout-important
+## COI
+I do not have any financial or personal relationships with Microsoft or OpenAI that could influence the content of this presentation.
+:::
+
+::: incremental
+::: callout-caution
+## Some Important Notes Before We Dive In
+- AI is developing rapidly, so will GitHub Copilot
+- Copilot is not perfect; it can make mistakes
+- Always review suggestions carefully
+  - See it as a helpful assistant/buddy, not a replacement to use your own intellect
+- Copilot does not replace human expertise (yet)
+- We will only cover the basics today
+  - If you'd be intereted in a more advanced session, let us know via the course feedback form!
+:::
+:::
 
 ## How to Access Copilot
 
 - **Sign up:** [github.com/features/copilot](https://github.com/features/copilot)
-- **Requirements:** GitHub account (free trial, then subscription)
+- **Requirements:** GitHub account (free, subscription)
 - **Install:**
     - In VS Code: Extensions → Search "GitHub Copilot" → Install
     - In RStudio: Use the Copilot add-in (requires setup)
 - **Activate:** Sign in with your GitHub account
 
----
+## How does Copilot work?
+
+![Illustration of principle GitHub Copilot functionality.](images/gh_copilot_works.png){#fig-gh-copilot-works width="120%"}
+
+## Where Can You Access GitHub Copilot?
+
+- **Visual Studio Code and GitHub Codespaces:** Popular code editor with Copilot extension
+
+![GitHub Copilot extension in Visual Studio Code.](images/vscode_extension.png){#fig-vscode width="100%"}
+
+## Where Can You Access GitHub Copilot?
+
+- **RStudio:** Integrated with RStudio for R development
+
+![GitHub Copilot in RStudio.](images/rstudio_copilot.png){#fig-rstudio width="100%"}
+
+## Where Can You Access GitHub Copilot?
+
+![GitHub Copilot in RStudio.](images/copilot_on_github.png){#fig-github width="100%"}
+
+# How to Use Copilot To Enhance Your Work in Pharmacoepidemiology
+
+## Use Cases for Analytic Code
+
+::: callout-tip
+### Code comprehension & review
+- Ask Copilot to explain complex code
+  - *"Line coding is too long and complex"* no longer a valid argument to not provide code along with a research study to enhance transparency and reproducibility (e.g., in peer-review)
+- Translate code between languages (e.g., R to Python)
+- Summarize code changes
+- Suggest improvements or catch potential bugs
+:::
+
+::: callout-tip
+### Code development, testing and documentation
+- Write new functions, scripts, or analyses faster
+- Generate boilerplate code for data import, cleaning, modeling
+- Create unit tests for your functions (!!!)
+- Suggest test cases (simulated data) and edge scenarios
+- Auto-generate docstrings, comments, and README content
+:::
+
+## Use Cases for git
+
+::: callout-tip
+## GitHub Copilot for Git
+- Automate common git workflows
+  - Example: generate commit messages based on code changes (`git diff`)
+- Tracking
+  - *"What changes were made to this repository in the last 5 commits?"*
+- Staging & committing
+- Advanced usage (create branches, help with pull requests and merging, etc.)
+:::
 
 ## Copilot Modes
 
@@ -81,53 +151,9 @@ csl: pharmacoepidemiology-and-drug-safety.csl
 - Copilot can perform multi-step tasks (e.g., add tests, update documentation)
 - Acts as an "agent" to automate workflows
 
----
+## Copilot in Action
 
-## Use Cases for Analytic Code
-
-### Development
-- Write new functions, scripts, or analyses faster
-- Generate boilerplate code for data import, cleaning, modeling
-
-### Comprehension
-- Ask Copilot to explain complex code
-- Translate code between languages (e.g., R to Python)
-
-### Review
-- Summarize code changes
-- Suggest improvements or catch potential bugs
-
-### Documentation
-- Auto-generate docstrings, comments, and README content
-
-### Testing
-- Create unit tests for your functions
-- Suggest test cases and edge scenarios
-
----
-
-## Use Cases for Git
-
-### Tracking
-- Ask: "What changes were made in the last 5 commits?"
-- Copilot can summarize commit history and diffs
-
-### Staging & Committing
-- Guide you through staging files and making commits in VS Code
-- Suggest commit messages based on code changes
-
-### Advanced Usage
-- Help with branching, merging, resolving conflicts
-- Explain git commands and workflows
-
----
-
-## Example: Copilot in Action
-
-- Live demo or screenshots (insert here)
-- Show Copilot suggesting code, explaining a function, or generating a commit message
-
----
+- Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
 
 ## Summary
 
