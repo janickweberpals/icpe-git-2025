@@ -151,6 +151,12 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 - Copilot can perform multi-step tasks (e.g., add tests, update documentation)
 - Acts as an "agent" to automate workflows
 
+## Prompt engineering
+
+- Be specific and clear in your prompts
+- Provide context and examples
+- Iterate on prompts based on feedback
+
 ## Copilot in Action
 
 - Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
