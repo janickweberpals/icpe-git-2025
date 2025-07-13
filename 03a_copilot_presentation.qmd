@@ -175,13 +175,9 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 {{< video "https://www.youtube-nocookie.com/embed/C_WMDhNw9Tg?si=O6p34AkMSHJFiSR6" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
 
-## Summary
-
-- Copilot accelerates coding, learning, and collaboration
-- Useful for all research roles: epidemiologists, biostatisticians, clinicians, and more
-- Try it out in your next project!
-
 ## Questions?
+
+Give it a try in your next project!
 
 - [Overview](https://github.com/features/copilot)
 - [Documentation](https://docs.github.com/copilot)
