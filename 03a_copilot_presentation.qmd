@@ -107,6 +107,8 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 ## Use Cases for Analytic Code
 
+::: incremental
+
 ::: callout-tip
 ### Code comprehension & review
 - Ask Copilot to explain complex code
@@ -125,6 +127,8 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 - Auto-generate docstrings, comments, and README content
 :::
 
+:::
+
 ## Use Cases for git
 
 ::: callout-tip
@@ -139,31 +143,51 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 ## Copilot Modes
 
-### 1. Ask
-- Chat with Copilot in natural language
-- Get code explanations, suggestions, and answers
+![Overview of [Copilot modes available in VSCode](https://github.blog/ai-and-ml/github-copilot/copilot-ask-edit-and-agent-modes-what-they-do-and-when-to-use-them/).](images/copilot_modes.png){#fig-copilot-modes width="80%"}
 
-### 2. Edit
-- Select code and ask Copilot to refactor, document, or fix it
-- Example: "Make this function more efficient"
 
-### 3. Agent
-- Copilot can perform multi-step tasks (e.g., add tests, update documentation)
-- Acts as an "agent" to automate workflows
+## Prompt engineering
 
-## Copilot in Action
+- Be specific and clear in your prompts
+- Provide context and examples
+- Iterate on prompts based on feedback
+
+## Copilot in Action (Ask Mode)
 
 - Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
+- Code example taken from [Abdelaziz et al.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5728) [@abdelaziz2024optimizing]
 
-## Summary
+>"To illustrate an application of the approach, we created and analyzed an active comparator new user cohort. Briefly, we implemented an active comparator new user design comparing the risk of bladder cancer of sodium–glucose co-transporter 2 (SGLT-2) inhibitors and glucagon-like peptide 1 receptor agonists (GLP-1RAs) inspired by a recent study from Abrahami et al. [@abrahami2022sodium] [...]"
 
-- Copilot accelerates coding, learning, and collaboration
-- Useful for all research roles: epidemiologists, biostatisticians, clinicians, and more
-- Try it out in your next project!
+## Copilot in Action (Ask Mode)
 
----
+{{< video "https://www.youtube-nocookie.com/embed/Ntvq1eLNtiQ?si=i-O2nEAwW2brUmx_" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
+
+## Copilot in Action (Edit Mode)
+
+...
+
+## Copilot in Action (Agent Mode)
+
+{{< video "https://www.youtube.com/embed/dNH05_DjBho?si=7TeBs6-lAVZkKDn6" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
+
+## Copilot in Action (Agent Mode)
+
+Example: Simulate dataset based on published literature
+Dataset: xxx randomized trial
+Publication:
+NCTID: 
+
+## Copilot in Action (Git Workflow)
+
+{{< video "https://www.youtube-nocookie.com/embed/C_WMDhNw9Tg?si=O6p34AkMSHJFiSR6" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
 
 ## Questions?
 
-- [github.com/features/copilot](https://github.com/features/copilot)
-- [docs.github.com/copilot](https://docs.github.com/copilot)
+Give it a try in your next project!
+
+- [Overview](https://github.com/features/copilot)
+- [Documentation](https://docs.github.com/copilot)
+- [Tutorials](https://github.com/features/copilot/tutorials)
+
+## References

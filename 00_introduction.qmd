@@ -51,22 +51,38 @@ library(dplyr)
 
 # Welcome to ICPE 2025
 
-## That's me (Janick Weberpals) {visibility="hidden"}
+## Meet Your Faculty
 
--   Associate Director, R&D Oncology Data Science & AI, AstraZeneca
+::: {.column width="25%"}
+Janick Weberpals, <br> RPh, PhD
+![](images/faculty_pics/janick.jpeg){width="91%"}
+Associate Director, Oncology Data Science & AI, AstraZeneca
+:::
 
--   Background: Pharmacy (RPh), Epidemiology (PhD), Data Science (Postdoc)
+::: {.column width="25%"}
+Shirley Wang, <br> PhD
+![](images/faculty_pics/shirley.png)
+Associate Professor, Brigham & Women's Hospital, Harvard Medical School
+:::
 
--   Research interest: Anything in and close to my skillset to eliminate cancer as a cause of death
+::: {.column width="25%"}
+Anna Schultz <br> PhD, MSc
+![](images/faculty_pics/anna.png)
+Assistant Professor, London School for Hygiene and Tropical Medicine
+:::
 
--   Prior affiliations: UF, DKFZ, Roche, Brigham & Women's Hospital and Harvard Medical School
+::: {.column width="25%"}
+John Tazare, <br> PhD
+![](images/faculty_pics/john.jpg)
+Assistant Professor, London School for Hygiene and Tropical Medicine
+:::
+
+## Disclosures
 
 ::: callout-important
 ## Disclosure
 
-I'm an employee at AstraZeneca and own shares in AstraZeneca. The views and opinions expressed in this presentation are those of the author and do not necessarily reflect the official policy or position of AstraZeneca. The author is presenting in a personal capacity.
-
-I don't own any shares in Microsoft or other products that are discussed as part of this pre-conference course.
+- Janick Weberpals is an employee at AstraZeneca and own shares in AstraZeneca. The views and opinions expressed in this presentation are those of the author and do not necessarily reflect the official policy or position of AstraZeneca. The author is presenting in a personal capacity.
 :::
 
 # Warm up survey
@@ -145,8 +161,7 @@ I don't own any shares in Microsoft or other products that are discussed as part
 ## Our agenda today
 
 ```{r}
-#| label: tbl-timetable
-#| tbl-cap: "Detailed course timetable."
+#| label: timetable
 #| message: false
 #| echo: false
 
@@ -168,7 +183,15 @@ You can find all course materials, setup instructions and further useful resourc
 
 [https://janickweberpals.github.io/icpe-git-2025/](https://janickweberpals.github.io/icpe-git-2025/)
 
-![Landing page of ICPE 2025 course website.](images/course_materials.png){#fig-course-materials}
+![Landing page of [ICPE 2025 course website](https://janickweberpals.github.io/icpe-git-2025/).](images/course_materials.png){#fig-course-materials}
+
+## PDS Special Issue
+
+![[PDS Special Issue on Transparency and Reproducibility in Pharmacoepidemiology](https://onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1099-1557.research-reproducibility) [@wang2025advancing]](images/pds_special_issue.png){#fig-pds-special}
+
+## Technical Setup
+
+...
 
 ## Course focus
 
@@ -204,13 +227,7 @@ Increasing expectations and policies from various stakeholders regarding the pro
 
 >"We will make code sharing mandatory too." (BMJ [@BMJ2023DataSharing])
 
-
-## References
-
-:::: callout-note
 ## References
 
 ::: ref
-:::
-
 :::
