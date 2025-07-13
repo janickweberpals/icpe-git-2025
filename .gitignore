@@ -46,7 +46,6 @@ docs/
 # translation temp files
 po/*~
 _book
-images/faculty_pics/
 
 # RStudio Connect folder
 rsconnect/
