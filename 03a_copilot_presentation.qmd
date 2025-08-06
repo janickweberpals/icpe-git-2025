@@ -34,54 +34,64 @@ bibliography: references.bib
 csl: pharmacoepidemiology-and-drug-safety.csl
 ---
 
+```{r}
+#| label: setup
+#| include: false
+
+library(tibble)
+library(gt)
+```
+
+
 ## Poll (raise your hands)
 
 ::: incremental
-- Who uses AI assistants (ChatGPT, Gemini, Claude, Mistral, ...) on a daily basis?
+-   Who uses AI assistants (ChatGPT, Gemini, Claude, Mistral, ...) on a daily basis?
 
-- Who uses AI assistants for code development, QC, or improving transparency and reproducibility in your research?
+-   Who uses AI assistants for code development, QC, or improving transparency and reproducibility in your research?
 
-- Who has ever used GitHub Copilot?
-
+-   Who has ever used GitHub Copilot?
 :::
 
 # GitHub Copilot: Your AI Coding Assistant
 
 ## What is GitHub Copilot?
 
-- AI-powered coding assistant by GitHub & OpenAI
-- Integrates with editors (VS Code, RStudio, etc.)
-- Suggests code, explains code, writes documentation, and more
-- Supports many languages (R, Python, SQL, etc.)
+-   AI-powered coding assistant by GitHub & OpenAI
+-   Integrates with editors (VS Code, RStudio, etc.)
+-   Suggests code, explains code, writes documentation, and more
+-   Supports many languages (R, Python, SQL, etc.)
 
 ## Disclaimer
 
 ::: callout-important
 ## COI
+
 I do not have any financial or personal relationships with Microsoft or OpenAI that could influence the content of this presentation.
 :::
 
-::: incremental
+:::: incremental
 ::: callout-caution
 ## Some Important Notes Before We Dive In
-- AI is developing rapidly, so will GitHub Copilot
-- Copilot is not perfect; it can make mistakes
-- Always review suggestions carefully
-  - See it as a helpful assistant/buddy, not a replacement to use your own intellect
-- Copilot does not replace human expertise (yet)
-- We will only cover the basics today
-  - If you'd be intereted in a more advanced session, let us know via the course feedback form!
+
+-   AI is developing rapidly, so will GitHub Copilot
+-   Copilot is not perfect; it can make mistakes
+-   Always review suggestions carefully
+    -   See it as a helpful assistant/buddy, not a replacement to use your own intellect
+-   Copilot does not replace human expertise (yet)
+-   We will only cover the basics today
+    -   If you'd be intereted in a more advanced session, let us know via the course feedback form!
 :::
-:::
+::::
 
 ## How to Access Copilot
 
-- **Sign up:** [github.com/features/copilot](https://github.com/features/copilot)
-- **Requirements:** GitHub account (free, subscription)
-- **Install:**
-    - In VS Code: Extensions → Search "GitHub Copilot" → Install
-    - In RStudio: Use the Copilot add-in (requires setup)
-- **Activate:** Sign in with your GitHub account
+-   **Sign up:** [github.com/features/copilot](https://github.com/features/copilot)
+-   **Requirements:** GitHub account (free, subscription)
+-   **Install:**
+    -   In VS Code: Extensions → Search "GitHub Copilot" → Install
+    -   In RStudio: Use the Copilot add-in (requires setup)
+-   **Activate:** Sign in with your GitHub account
 
 ## How does Copilot work?
 
@@ -89,13 +99,13 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 ## Where Can You Access GitHub Copilot?
 
-- **Visual Studio Code and GitHub Codespaces:** Popular code editor with Copilot extension
+-   **Visual Studio Code and GitHub Codespaces:** Popular code editor with Copilot extension
 
 ![GitHub Copilot extension in Visual Studio Code.](images/vscode_extension.png){#fig-vscode width="100%"}
 
 ## Where Can You Access GitHub Copilot?
 
-- **RStudio:** Integrated with RStudio for R development
+-   **RStudio:** Integrated with RStudio for R development
 
 ![GitHub Copilot in RStudio.](images/rstudio_copilot.png){#fig-rstudio width="100%"}
 
@@ -107,57 +117,90 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 ## Use Cases for Analytic Code
 
-::: incremental
-
+::::: incremental
 ::: callout-tip
 ### Code comprehension & review
-- Ask Copilot to explain complex code
-  - *"Line coding is too long and complex"* no longer a valid argument to not provide code along with a research study to enhance transparency and reproducibility (e.g., in peer-review)
-- Translate code between languages (e.g., R to Python)
-- Summarize code changes
-- Suggest improvements or catch potential bugs
+
+-   Ask Copilot to explain complex code
+    -   *"Line coding is too long and complex"* no longer a valid argument to not provide code along with a research study to enhance transparency and reproducibility (e.g., in peer-review)
+-   Translate code between languages (e.g., R to Python)
+-   Summarize code changes
+-   Suggest improvements or catch potential bugs
 :::
 
 ::: callout-tip
 ### Code development, testing and documentation
-- Write new functions, scripts, or analyses faster
-- Generate boilerplate code for data import, cleaning, modeling
-- Create unit tests for your functions (!!!)
-- Suggest test cases (simulated data) and edge scenarios
-- Auto-generate docstrings, comments, and README content
-:::
 
+-   Write new functions, scripts, or analyses faster
+-   Generate boilerplate code for data import, cleaning, modeling
+-   Create unit tests for your functions (!!!)
+-   Suggest test cases (simulated data) and edge scenarios
+-   Auto-generate docstrings, comments, and README content
 :::
+:::::
 
 ## Use Cases for git
 
 ::: callout-tip
 ## GitHub Copilot for Git
-- Automate common git workflows
-  - Example: generate commit messages based on code changes (`git diff`)
-- Tracking
-  - *"What changes were made to this repository in the last 5 commits?"*
-- Staging & committing
-- Advanced usage (create branches, help with pull requests and merging, etc.)
+
+-   Automate common git workflows
+    -   Example: generate commit messages based on code changes (`git diff`)
+-   Tracking
+    -   *"What changes were made to this repository in the last 5 commits?"*
+-   Staging & committing
+-   Advanced usage (create branches, help with pull requests and merging, etc.)
 :::
 
 ## Copilot Modes
 
 ![Overview of [Copilot modes available in VSCode](https://github.blog/ai-and-ml/github-copilot/copilot-ask-edit-and-agent-modes-what-they-do-and-when-to-use-them/).](images/copilot_modes.png){#fig-copilot-modes width="80%"}
 
-
 ## Prompt engineering
 
-- Be specific and clear in your prompts
-- Provide context and examples
-- Iterate on prompts based on feedback
+-   Be specific and clear in your prompts
+-   Provide context and examples
+-   Iterate on prompts based on feedback
+
+## Model Choice {.fit-slide}
+
+```{r}
+#| label: tbl-model-comparison
+
+model_comparison <- tibble::tribble(
+  ~Model,            ~`Task area`,                                   ~`Excels at (primary use case)`,                                              ~`Additional capabilities`,
+  "GPT-4.1",         "General-purpose coding and writing",          "Fast, accurate code completions and explanations",                          "Agent mode, vision",
+  "GPT-4o",          "General-purpose coding and writing",          "Fast completions and visual input understanding",                           "Agent mode, vision",
+  "o3",              "Deep reasoning and debugging",                "Multi-step problem solving and architecture-level code analysis",           "Reasoning",
+  "o4-mini",         "Fast help with simple or repetitive tasks",   "Fast, reliable answers to lightweight coding questions",                    "Lower latency",
+  "Claude Opus 4.1", "Deep reasoning and debugging",                "Complex problem-solving challenges, sophisticated reasoning",               "Reasoning, vision",
+  "Claude Opus 4",   "Deep reasoning and debugging",                "Complex problem-solving challenges, sophisticated reasoning",               "Reasoning, vision",
+  "Claude Sonnet 3.5", "Fast help with simple or repetitive tasks", "Quick responses for code, syntax, and documentation",                     "Agent mode, vision",
+  "Claude Sonnet 3.7", "Deep reasoning and debugging",                "Structured reasoning across large, complex codebases",                      "Agent mode, vision",
+  "Claude Sonnet 4", "Deep reasoning and debugging",                "Performance and practicality, perfectly balanced for coding workflows",   "Agent mode, vision",
+  "Gemini 2.5 Pro",  "Deep reasoning and debugging",                "Complex code generation, debugging, and research workflows",                "Reasoning, vision",
+  "Gemini 2.0 Flash","Working with visuals (diagrams, screenshots)", "Real-time responses and visual reasoning for UI and diagram-based tasks", "Vision"
+)
+
+model_comparison |> 
+  gt() |> 
+  tab_caption("Comparison of GitHub Copilot models.") |> 
+  tab_footnote("Taken from https://docs.github.com/en/copilot/reference/ai-models/model-comparison") |> 
+  tab_style(
+    style = list(
+      cell_text(weight = "bold")
+      ),
+    locations = cells_column_labels(columns = everything())
+    )
+```
+
 
 ## Copilot in Action (Ask Mode)
 
-- Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
-- Code example taken from [Abdelaziz et al.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5728) [@abdelaziz2024optimizing]
+-   Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
+-   Code example taken from [Abdelaziz et al.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5728) [@abdelaziz2024optimizing]
 
->"To illustrate an application of the approach, we created and analyzed an active comparator new user cohort. Briefly, we implemented an active comparator new user design comparing the risk of bladder cancer of sodium–glucose co-transporter 2 (SGLT-2) inhibitors and glucagon-like peptide 1 receptor agonists (GLP-1RAs) inspired by a recent study from Abrahami et al. [@abrahami2022sodium] [...]"
+> "To illustrate an application of the approach, we created and analyzed an active comparator new user cohort. Briefly, we implemented an active comparator new user design comparing the risk of bladder cancer of sodium–glucose co-transporter 2 (SGLT-2) inhibitors and glucagon-like peptide 1 receptor agonists (GLP-1RAs) inspired by a recent study from Abrahami et al. [@abrahami2022sodium] \[...\]"
 
 ## Copilot in Action (Ask Mode)
 
@@ -173,10 +216,7 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 ## Copilot in Action (Agent Mode)
 
-Example: Simulate dataset based on published literature
-Dataset: xxx randomized trial
-Publication:
-NCTID: 
+Example: Simulate dataset based on published literature Dataset: xxx randomized trial Publication: NCTID:
 
 ## Copilot in Action (Git Workflow)
 
@@ -186,8 +226,8 @@ NCTID:
 
 Give it a try in your next project!
 
-- [Overview](https://github.com/features/copilot)
-- [Documentation](https://docs.github.com/copilot)
-- [Tutorials](https://github.com/features/copilot/tutorials)
+-   [Overview](https://github.com/features/copilot)
+-   [Documentation](https://docs.github.com/copilot)
+-   [Tutorials](https://github.com/features/copilot/tutorials)
 
 ## References

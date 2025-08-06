@@ -1233,6 +1233,505 @@ Figure 5: Overview of <a href="https://github.blog/ai-and-ml/github-copilot/cop
 <li>Iterate on prompts based on feedback</li>
 </ul>
 </section>
+<section id="model-choice" class="slide level2 fit-slide">
+<h2>Model Choice</h2>
+<div class="cell">
+<div id="tbl-model-comparison" class="cell quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-model-comparison-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table 1: Comparison of GitHub Copilot models.
+</figcaption>
+<div aria-describedby="tbl-model-comparison-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="igxsyymjpy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#igxsyymjpy table {
+font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+#igxsyymjpy thead, #igxsyymjpy tbody, #igxsyymjpy tfoot, #igxsyymjpy tr, #igxsyymjpy td, #igxsyymjpy th {
+border-style: none;
+}
+#igxsyymjpy p {
+margin: 0;
+padding: 0;
+}
+#igxsyymjpy .gt_table {
+display: table;
+border-collapse: collapse;
+line-height: normal;
+margin-left: auto;
+margin-right: auto;
+color: #333333;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+background-color: #FFFFFF;
+width: auto;
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #A8A8A8;
+border-right-style: none;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #A8A8A8;
+border-left-style: none;
+border-left-width: 2px;
+border-left-color: #D3D3D3;
+}
+#igxsyymjpy .gt_caption {
+padding-top: 4px;
+padding-bottom: 4px;
+}
+#igxsyymjpy .gt_title {
+color: #333333;
+font-size: 125%;
+font-weight: initial;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 5px;
+padding-right: 5px;
+border-bottom-color: #FFFFFF;
+border-bottom-width: 0;
+}
+#igxsyymjpy .gt_subtitle {
+color: #333333;
+font-size: 85%;
+font-weight: initial;
+padding-top: 3px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+border-top-color: #FFFFFF;
+border-top-width: 0;
+}
+#igxsyymjpy .gt_heading {
+background-color: #FFFFFF;
+text-align: center;
+border-bottom-color: #FFFFFF;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+}
+#igxsyymjpy .gt_bottom_border {
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+}
+#igxsyymjpy .gt_col_headings {
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+}
+#igxsyymjpy .gt_col_heading {
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: normal;
+text-transform: inherit;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+vertical-align: bottom;
+padding-top: 5px;
+padding-bottom: 6px;
+padding-left: 5px;
+padding-right: 5px;
+overflow-x: hidden;
+}
+#igxsyymjpy .gt_column_spanner_outer {
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: normal;
+text-transform: inherit;
+padding-top: 0;
+padding-bottom: 0;
+padding-left: 4px;
+padding-right: 4px;
+}
+#igxsyymjpy .gt_column_spanner_outer:first-child {
+padding-left: 0;
+}
+#igxsyymjpy .gt_column_spanner_outer:last-child {
+padding-right: 0;
+}
+#igxsyymjpy .gt_column_spanner {
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+vertical-align: bottom;
+padding-top: 5px;
+padding-bottom: 5px;
+overflow-x: hidden;
+display: inline-block;
+width: 100%;
+}
+#igxsyymjpy .gt_spanner_row {
+border-bottom-style: hidden;
+}
+#igxsyymjpy .gt_group_heading {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: initial;
+text-transform: inherit;
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+vertical-align: middle;
+text-align: left;
+}
+#igxsyymjpy .gt_empty_group_heading {
+padding: 0.5px;
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: initial;
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+vertical-align: middle;
+}
+#igxsyymjpy .gt_from_md > :first-child {
+margin-top: 0;
+}
+#igxsyymjpy .gt_from_md > :last-child {
+margin-bottom: 0;
+}
+#igxsyymjpy .gt_row {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+margin: 10px;
+border-top-style: solid;
+border-top-width: 1px;
+border-top-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+vertical-align: middle;
+overflow-x: hidden;
+}
+#igxsyymjpy .gt_stub {
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: initial;
+text-transform: inherit;
+border-right-style: solid;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+padding-left: 5px;
+padding-right: 5px;
+}
+#igxsyymjpy .gt_stub_row_group {
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: initial;
+text-transform: inherit;
+border-right-style: solid;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+padding-left: 5px;
+padding-right: 5px;
+vertical-align: top;
+}
+#igxsyymjpy .gt_row_group_first td {
+border-top-width: 2px;
+}
+#igxsyymjpy .gt_row_group_first th {
+border-top-width: 2px;
+}
+#igxsyymjpy .gt_summary_row {
+color: #333333;
+background-color: #FFFFFF;
+text-transform: inherit;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#igxsyymjpy .gt_first_summary_row {
+border-top-style: solid;
+border-top-color: #D3D3D3;
+}
+#igxsyymjpy .gt_first_summary_row.thick {
+border-top-width: 2px;
+}
+#igxsyymjpy .gt_last_summary_row {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+}
+#igxsyymjpy .gt_grand_summary_row {
+color: #333333;
+background-color: #FFFFFF;
+text-transform: inherit;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#igxsyymjpy .gt_first_grand_summary_row {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+border-top-style: double;
+border-top-width: 6px;
+border-top-color: #D3D3D3;
+}
+#igxsyymjpy .gt_last_grand_summary_row_top {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+border-bottom-style: double;
+border-bottom-width: 6px;
+border-bottom-color: #D3D3D3;
+}
+#igxsyymjpy .gt_striped {
+background-color: rgba(128, 128, 128, 0.05);
+}
+#igxsyymjpy .gt_table_body {
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+}
+#igxsyymjpy .gt_footnotes {
+color: #333333;
+background-color: #FFFFFF;
+border-bottom-style: none;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 2px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+}
+#igxsyymjpy .gt_footnote {
+margin: 0px;
+font-size: 90%;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#igxsyymjpy .gt_sourcenotes {
+color: #333333;
+background-color: #FFFFFF;
+border-bottom-style: none;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 2px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+}
+#igxsyymjpy .gt_sourcenote {
+font-size: 90%;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#igxsyymjpy .gt_left {
+text-align: left;
+}
+#igxsyymjpy .gt_center {
+text-align: center;
+}
+#igxsyymjpy .gt_right {
+text-align: right;
+font-variant-numeric: tabular-nums;
+}
+#igxsyymjpy .gt_font_normal {
+font-weight: normal;
+}
+#igxsyymjpy .gt_font_bold {
+font-weight: bold;
+}
+#igxsyymjpy .gt_font_italic {
+font-style: italic;
+}
+#igxsyymjpy .gt_super {
+font-size: 65%;
+}
+#igxsyymjpy .gt_footnote_marks {
+font-size: 75%;
+vertical-align: 0.4em;
+position: initial;
+}
+#igxsyymjpy .gt_asterisk {
+font-size: 100%;
+vertical-align: 0;
+}
+#igxsyymjpy .gt_indent_1 {
+text-indent: 5px;
+}
+#igxsyymjpy .gt_indent_2 {
+text-indent: 10px;
+}
+#igxsyymjpy .gt_indent_3 {
+text-indent: 15px;
+}
+#igxsyymjpy .gt_indent_4 {
+text-indent: 20px;
+}
+#igxsyymjpy .gt_indent_5 {
+text-indent: 25px;
+}
+#igxsyymjpy .katex-display {
+display: inline-flex !important;
+margin-bottom: 0.75em !important;
+}
+#igxsyymjpy div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+height: 0px !important;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<caption>Comparison of GitHub Copilot models.</caption>
+<thead>
+<tr class="gt_col_headings header">
+<th id="Model" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Model</th>
+<th id="Task-area" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Task area</th>
+<th id="Excels-at-(primary-use-case)" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Excels at (primary use case)</th>
+<th id="Additional-capabilities" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Additional capabilities</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="Model">GPT-4.1</td>
+<td class="gt_row gt_left" headers="Task area">General-purpose coding and writing</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Fast, accurate code completions and explanations</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Agent mode, vision</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Model">GPT-4o</td>
+<td class="gt_row gt_left" headers="Task area">General-purpose coding and writing</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Fast completions and visual input understanding</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Agent mode, vision</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Model">o3</td>
+<td class="gt_row gt_left" headers="Task area">Deep reasoning and debugging</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Multi-step problem solving and architecture-level code analysis</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Reasoning</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Model">o4-mini</td>
+<td class="gt_row gt_left" headers="Task area">Fast help with simple or repetitive tasks</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Fast, reliable answers to lightweight coding questions</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Lower latency</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Model">Claude Opus 4.1</td>
+<td class="gt_row gt_left" headers="Task area">Deep reasoning and debugging</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Complex problem-solving challenges, sophisticated reasoning</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Reasoning, vision</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Model">Claude Opus 4</td>
+<td class="gt_row gt_left" headers="Task area">Deep reasoning and debugging</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Complex problem-solving challenges, sophisticated reasoning</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Reasoning, vision</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Model">Claude Sonnet 3.5</td>
+<td class="gt_row gt_left" headers="Task area">Fast help with simple or repetitive tasks</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Quick responses for code, syntax, and documentation</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Agent mode, vision</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Model">Claude Sonnet 3.7</td>
+<td class="gt_row gt_left" headers="Task area">Deep reasoning and debugging</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Structured reasoning across large, complex codebases</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Agent mode, vision</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Model">Claude Sonnet 4</td>
+<td class="gt_row gt_left" headers="Task area">Deep reasoning and debugging</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Performance and practicality, perfectly balanced for coding workflows</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Agent mode, vision</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Model">Gemini 2.5 Pro</td>
+<td class="gt_row gt_left" headers="Task area">Deep reasoning and debugging</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Complex code generation, debugging, and research workflows</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Reasoning, vision</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Model">Gemini 2.0 Flash</td>
+<td class="gt_row gt_left" headers="Task area">Working with visuals (diagrams, screenshots)</td>
+<td class="gt_row gt_left" headers="Excels at (primary use case)">Real-time responses and visual reasoning for UI and diagram-based tasks</td>
+<td class="gt_row gt_left" headers="Additional capabilities">Vision</td>
+</tr>
+</tbody><tfoot class="gt_footnotes">
+<tr class="odd">
+<td colspan="4" class="gt_footnote">Taken from https://docs.github.com/en/copilot/reference/ai-models/model-comparison</td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
 <section id="copilot-in-action-ask-mode" class="slide level2">
 <h2>Copilot in Action (Ask Mode)</h2>
 <ul>
@@ -1253,22 +1752,19 @@ Figure 5: Overview of <a href="https://github.blog/ai-and-ml/github-copilot/cop
 </section>
 <section id="copilot-in-action-agent-mode" class="slide level2">
 <h2>Copilot in Action (Agent Mode)</h2>
-<p>…</p>
+<iframe data-external="1" src="https://www.youtube.com/embed/dNH05_DjBho?si=7TeBs6-lAVZkKDn6" width="1100" height="668.5938068966" title frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<section id="copilot-in-action-agent-mode-1" class="slide level2">
+<h2>Copilot in Action (Agent Mode)</h2>
+<p>Example: Simulate dataset based on published literature Dataset: xxx randomized trial Publication: NCTID:</p>
 </section>
 <section id="copilot-in-action-git-workflow" class="slide level2">
 <h2>Copilot in Action (Git Workflow)</h2>
 <iframe data-external="1" src="https://www.youtube.com/embed/C_WMDhNw9Tg?si=O6p34AkMSHJFiSR6" width="1100" height="668.5938068966" title frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
-<section id="summary" class="slide level2">
-<h2>Summary</h2>
-<ul>
-<li>Copilot accelerates coding, learning, and collaboration</li>
-<li>Useful for all research roles: epidemiologists, biostatisticians, clinicians, and more</li>
-<li>Try it out in your next project!</li>
-</ul>
-</section>
 <section id="questions" class="slide level2">
 <h2>Questions?</h2>
+<p>Give it a try in your next project!</p>
 <ul>
 <li><a href="https://github.com/features/copilot">Overview</a></li>
 <li><a href="https://docs.github.com/copilot">Documentation</a></li>
@@ -2450,6 +2946,44 @@ window.QuartoSupport = function () {
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
