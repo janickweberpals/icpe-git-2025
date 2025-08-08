@@ -16,7 +16,7 @@ Ambiguity in communication of key study parameters limits the utility of real-wo
 
 The overarching principle was to reach for sufficient clarity to achieve three main goals. One, to help investigators thoroughly consider, then document their choices and rationale for key study parameters that define the causal question, two, to facilitate decision-making by enabling reviewers to readily assess potential for biases related to these choices, and three, to facilitate reproducibility. The HARmonized Protocol Template to Enhance Reproducibility helps to create a shared understanding of intended scientific decisions through a common text, tabular and visual structure. The template provides a set of core recommendations for clear and reproducible RWE study protocols and is intended to be used as a backbone throughout the research process from developing a valid study protocol, to registration, through implementation and reporting on those implementation decisions.
 
-### ICPE 2024 presentation
+### ICPE 2025 presentation
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSb3yfaU4uweMimzp8n6u9NJBdwtiRmwEq8UXt_WWQP6XhmAd7An64lbYfCbR3k2g/pubembed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
