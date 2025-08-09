@@ -88,10 +88,8 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 -   **Sign up:** [github.com/features/copilot](https://github.com/features/copilot)
 -   **Requirements:** GitHub account (free, subscription)
--   **Install:**
-    -   In VS Code: Extensions → Search "GitHub Copilot" → Install
-    -   In RStudio: Use the Copilot add-in (requires setup)
--   **Activate:** Sign in with your GitHub account
+
+![Sign up for GitHub Copilot.](images/github-copilot-signup.png){#fig-copilot-signup width="120%"}
 
 ## How does Copilot work?
 
@@ -100,6 +98,7 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 ## Where Can You Access GitHub Copilot?
 
 -   **Visual Studio Code and GitHub Codespaces:** Popular code editor with Copilot extension
+-    In VS Code: Extensions → Search "GitHub Copilot" → Install
 
 ![GitHub Copilot extension in Visual Studio Code.](images/vscode_extension.png){#fig-vscode width="100%"}
 
@@ -197,26 +196,30 @@ model_comparison |>
 
 ## Copilot in Action (Ask Mode)
 
--   Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
+**Example use case**: Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
+
 -   Code example taken from [Abdelaziz et al.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5728) [@abdelaziz2024optimizing]
 
-> "To illustrate an application of the approach, we created and analyzed an active comparator new user cohort. Briefly, we implemented an active comparator new user design comparing the risk of bladder cancer of sodium–glucose co-transporter 2 (SGLT-2) inhibitors and glucagon-like peptide 1 receptor agonists (GLP-1RAs) inspired by a recent study from Abrahami et al. [@abrahami2022sodium] \[...\]"
+> "To illustrate an application of the approach, we created and **analyzed an active comparator new user cohort**. Briefly, we implemented an active comparator new user design comparing the risk of bladder cancer of sodium–glucose co-transporter 2 (SGLT-2) inhibitors and glucagon-like peptide 1 receptor agonists (GLP-1RAs) inspired by a recent study from Abrahami et al. [@abrahami2022sodium] \[...\]"
 
 ## Copilot in Action (Ask Mode)
 
 {{< video "https://www.youtube-nocookie.com/embed/Ntvq1eLNtiQ?si=i-O2nEAwW2brUmx_" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
 
+## Copilot in Action (Agent Mode)
+
+**Example use case**: Simulate dataset based on published literature
+
+- Example trial: [Keynote-189](https://clinicaltrials.gov/study/NCT02578680?tab=results#baseline-characteristics)
+- Baseline characteristics: [Published on ClinicalTrials.gov (NCT02578680)](https://clinicaltrials.gov/study/NCT02578680?tab=results#baseline-characteristics)
+
+## Copilot in Action (Agent Mode)
+
+{{< video "https://www.youtube-nocookie.com/embed/EUBZ6x2voPw?si=RFee0Cuef2dpGsaW" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
+
 ## Copilot in Action (Edit Mode)
 
-...
-
-## Copilot in Action (Agent Mode)
-
-{{< video "https://www.youtube.com/embed/dNH05_DjBho?si=7TeBs6-lAVZkKDn6" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
-
-## Copilot in Action (Agent Mode)
-
-Example: Simulate dataset based on published literature Dataset: xxx randomized trial Publication: NCTID:
+{{< video "https://www.youtube-nocookie.com/embed/By5ZNAMRAd0?si=eljg47IgURdpj9Oi" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
 
 ## Copilot in Action (Git Workflow)
 

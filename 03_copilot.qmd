@@ -9,16 +9,8 @@ engine: knitr
 editor: visual
 ---
 
-## Session Introduction
-
-...
-
 ## ISPE 2025 Slides
 
-<iframe src="03a_copilot_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="03a_copilot_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
-## Git glossary
-
-## Additional Resources
-
-...
+</iframe>
