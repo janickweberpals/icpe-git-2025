@@ -183,7 +183,7 @@ You can find all course materials, setup instructions and further useful resourc
 
 ## Technical Setup
 
-![Link to [course website(https://janickweberpals.github.io/icpe-git-2025/syllabus.html#technical-setup) section with step-by-step instructions on technical setup for this course].](images/qr-code-technical-setup.png){#fig-qr}
+![Link to [course website (https://janickweberpals.github.io/icpe-git-2025/syllabus.html#technical-setup) section with step-by-step instructions on technical setup for this course].](images/qr-code-technical-setup.png){#fig-qr}
 
 ## Course focus
 
