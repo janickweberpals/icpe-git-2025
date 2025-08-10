@@ -455,6 +455,7 @@ becomes ⬇️
 
 # we determine the sample size in a code chunk to integrate into our narrative text
 sample_size <- nrow(smdi_data)
+text_string <- "`r sample_size`"
 ```
 
 ```` markdown
@@ -463,7 +464,7 @@ sample_size <- nrow(smdi_data)
 sample_size <- nrow(smdi_data)  
 ```
 
-The sample size comprised `{r} sample_size` patients.
+The sample size comprised `r text_string` patients.
 ````
 
 -   In a dynamic study report, we now don't need to manually copy-paste numbers, but only reference the resulting object of the computations performed in the code chunk, which then automatically shows the most-up-to date number:
