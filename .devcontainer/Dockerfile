@@ -35,6 +35,7 @@ RUN R -e "install.packages('pak', repos = 'https://r-lib.github.io/p/pak/stable/
     Rscript -e "pak::pak('MatchThem@1.2.1')" && \
     Rscript -e "pak::pak('cobalt@4.6.0')" && \
     Rscript -e "pak::pak('smdi@0.3.1')" && \
+    Rscript -e "pak::pak('renv')" && \
     Rscript -e "pak::pak('janickweberpals/encore.analytics')"
 
 # Copy RStudio preferences and helper script
