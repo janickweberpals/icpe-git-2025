@@ -24,10 +24,14 @@ practical study design templates (HARPER) and tools (git, quarto) to
 increase the transparency and reproducibility across the design,
 analysis and reporting stages of a RWE study.
 
--   Course material: Course materials can be found at
-    <https://github.com/janickweberpals/icpe-git-2025>
--   Poll everywhere survey can be found at …
+- Course material: Course materials can be found at
+  <https://github.com/janickweberpals/icpe-git-2025>
+- Poll everywhere survey can be found at …
 
+## Introduction
+
+<iframe src="00_introduction.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
 <!--#
 
 ## [Intro](https://docs.google.com/presentation/d/1j6LsWOIuNQbo8jRhGsEpOGSRuvrXpox-UIweZPemCco/edit?usp=sharing){.unnumbered}
@@ -114,11 +118,10 @@ Follow these steps if you wish to reproduce this website:
 
 Overview of files and file types in this repository:
 
--   .Rprofile - defines paths, activates `renv`, options for Posit R
-    package manager
--   renv/renv.lock - `renv` directories to manage R dependencies and
-    versions used in this simulation
--   .github - workflow files for automatic CI/CD on Github pages
--   README - essential information about the project (README.Rmd renders
-    to README.md via update\_README.R after each `quarto render`
-    command)
+- .Rprofile - defines paths, activates `renv`, options for Posit R
+  package manager
+- renv/renv.lock - `renv` directories to manage R dependencies and
+  versions used in this simulation
+- .github - workflow files for automatic CI/CD on Github pages
+- README - essential information about the project (README.Rmd renders
+  to README.md via update\_README.R after each `quarto render` command)
