@@ -57,10 +57,7 @@ library(gt)
 
 ## What is GitHub Copilot?
 
--   AI-powered coding assistant by GitHub & OpenAI
--   Integrates with editors (VS Code, RStudio, etc.)
--   Suggests code, explains code, writes documentation, and more
--   Supports many languages (R, Python, SQL, etc.)
+![GitHub Copilot overview (figure created via GPT-5).](images/copilot-infographic.png){#fig-copilot-info}
 
 ## Disclaimer
 
@@ -70,7 +67,6 @@ library(gt)
 I do not have any financial or personal relationships with Microsoft or OpenAI that could influence the content of this presentation.
 :::
 
-:::: incremental
 ::: callout-caution
 ## Some Important Notes Before We Dive In
 
@@ -82,12 +78,12 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 -   We will only cover the basics today
     -   If you'd be intereted in a more advanced session, let us know via the course feedback form!
 :::
-::::
 
 ## How to Access Copilot
 
 -   **Sign up:** [github.com/features/copilot](https://github.com/features/copilot)
 -   **Requirements:** GitHub account (free, subscription)
+-   More detailed instructions can be found [on course website (section 2)](https://janickweberpals.github.io/icpe-git-2025/syllabus.html#github-copilot)
 
 ![Sign up for GitHub Copilot.](images/github-copilot-signup.png){#fig-copilot-signup width="120%"}
 
@@ -116,8 +112,7 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 ## Use Cases for Analytic Code
 
-::::: incremental
-::: callout-tip
+::: callout-note
 ### Code comprehension & review
 
 -   Ask Copilot to explain complex code
@@ -127,7 +122,7 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 -   Suggest improvements or catch potential bugs
 :::
 
-::: callout-tip
+::: callout-note
 ### Code development, testing and documentation
 
 -   Write new functions, scripts, or analyses faster
@@ -136,11 +131,10 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 -   Suggest test cases (simulated data) and edge scenarios
 -   Auto-generate docstrings, comments, and README content
 :::
-:::::
 
 ## Use Cases for git
 
-::: callout-tip
+::: callout-note
 ## GitHub Copilot for Git
 
 -   Automate common git workflows
@@ -157,9 +151,21 @@ I do not have any financial or personal relationships with Microsoft or OpenAI t
 
 ## Prompt engineering
 
--   Be specific and clear in your prompts
+::: callout-tip
+-   Start general, then get specific
+    - *Write a function in R. The function should do X and Y based on Z input.*
+
 -   Provide context and examples
+    - *Return a propensity score-matched cohort in a data.frame that contains the patient ID (patid), covariates (all columns that start with "c_") and the computed propensity score as "ps"*
+
+-   Segment complex tasks into sub-tasks
+    - *First create a script called "xyz_function.R", then write the function, then test the function with dataset 1, address any potential errors and then test again*
+
 -   Iterate on prompts based on feedback
+    - *Please refactor the code such that it returns the age variable as a categori*
+:::
+
+More recommendations and examples can be found [here](https://docs.github.com/en/copilot/concepts/prompt-engineering).
 
 ## Model Choice {.fit-slide}
 
@@ -198,28 +204,50 @@ model_comparison |>
 
 **Example use case**: Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
 
--   Code example taken from [Abdelaziz et al.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5728) [@abdelaziz2024optimizing]
+-   Code example taken from [Abdelaziz et al., PDS 2024](https://onlinelibrary.wiley.com/doi/10.1002/pds.5728) [@abdelaziz2024optimizing]
 
 > "To illustrate an application of the approach, we created and **analyzed an active comparator new user cohort**. Briefly, we implemented an active comparator new user design comparing the risk of bladder cancer of sodium–glucose co-transporter 2 (SGLT-2) inhibitors and glucagon-like peptide 1 receptor agonists (GLP-1RAs) inspired by a recent study from Abrahami et al. [@abrahami2022sodium] \[...\]"
 
 ## Copilot in Action (Ask Mode)
 
-{{< video "https://www.youtube-nocookie.com/embed/Ntvq1eLNtiQ?si=i-O2nEAwW2brUmx_" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
+
+**Example**: Comprehend and [review existing code](https://github.com/abduazizR/PEpiwithR/blob/main/applied-example.qmd)
+
+::: callout-note
+## Example prompt
+*How did the author define the continuous enrollment periods.
+Provide details and show me the code that was used to derive the continuous enrollment periods.*
+:::
+
+![Example code/GitHub repository by [Abdelaziz et al.](https://onlinelibrary.wiley.com/doi/10.1002/pds.5728) [@abdelaziz2024optimizing]](images/ask-mode-repo-snaphsot.png){#fig-review-repository width="80%"}
+
+## Copilot in Action (Ask Mode)
+
+{{< video "https://www.youtube-nocookie.com/embed/xvhYmGz_x74?si=fS86anQWzkdXIXUa" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
 
 ## Copilot in Action (Agent Mode)
 
-**Example use case**: Simulate dataset based on published literature
+**Example**: Simulate dataset and create a Table 1
 
-- Example trial: [Keynote-189](https://clinicaltrials.gov/study/NCT02578680?tab=results#baseline-characteristics)
-- Baseline characteristics: [Published on ClinicalTrials.gov (NCT02578680)](https://clinicaltrials.gov/study/NCT02578680?tab=results#baseline-characteristics)
+::: callout-note
+## Example prompt
+Generate a simulated datasets (data.frame) using the R programming language. The simulated dataset should resemble the main characteristics and baseline distributions of a fictional randomized trial with two treatment arms and a few baseline covariates, including age (continuous: mean 65), sex (categorical: male (40%) and female (60%)), disease stage (ordinal: I, II, III, IV, with each 25% prevalence) and biomarker status (binary: TRUE (30%), FALSE (70%)).
+
+Use a step by step approach:
+
+1. Create a new file called “01_simulate_data.R”
+2. Simulate the dataset and do not store the simulated dataset
+3. Illustrate the baseline characteristics and distributions by treatment arm using the tbl_summary() function of the gtsummary package. You don’t need to execute the code
+:::
+
 
 ## Copilot in Action (Agent Mode)
 
-{{< video "https://www.youtube-nocookie.com/embed/EUBZ6x2voPw?si=RFee0Cuef2dpGsaW" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
+{{< video "https://www.youtube-nocookie.com/embed/dfUV-rFQ38U?si=KDmvimsUecRmJDf-" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
 
 ## Copilot in Action (Edit Mode)
 
-{{< video "https://www.youtube-nocookie.com/embed/By5ZNAMRAd0?si=eljg47IgURdpj9Oi" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
+{{< video "https://www.youtube-nocookie.com/embed/Da1we9DFVKE?si=njIYmeRzZXTCTasW" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
 
 ## Copilot in Action (Git Workflow)
 

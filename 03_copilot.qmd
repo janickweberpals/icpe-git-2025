@@ -9,8 +9,17 @@ engine: knitr
 editor: visual
 ---
 
+GitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI that suggests code completions, snippets, and entire functions directly within your code editor. It’s trained on a vast range of public code and natural language, enabling it to understand context and generate and review relevant code in real time. Developers and researchers use it to speed up coding, reduce repetitive work, and get inspiration for problem-solving—though it’s still important to review and test its suggestions for accuracy and security.
+
 ## ISPE 2025 Slides
 
 <iframe src="03a_copilot_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
 </iframe>
+
+## Additional resources
+
+-   [Overview](https://github.com/features/copilot)
+-   [Documentation](https://docs.github.com/copilot)
+-   [Tutorials](https://github.com/features/copilot/tutorials)
+-   [Prompt engineering](https://docs.github.com/en/copilot/concepts/prompt-engineering)

@@ -1,6 +1,6 @@
 ---
-title: "Reproducible reporting"
-subtitle: "An introduction to Quarto"
+title: "An introduction to Quarto"
+subtitle: "Literate programming for transparent research reporting"
 date: "August 23, 2025"
 date-format: long 
 author:
@@ -22,10 +22,7 @@ format:
     width: 1280
     height: 720
     transition: fade
-  # pdf: 
-  #   classoption: landscape
-  #   fontsize: 18pt
-  #   colorlinks: true
+
 code-summary: "Show code"
 code-line-numbers: true
   
@@ -33,11 +30,6 @@ toc: true
 toc-depth: 1
 slide-number: true
 embed-resources: true
-
-# spotlight:
-#     size: 120
-# revealjs-plugins:
-#   - spotlight
   
 bibliography: references.bib
 csl: pharmacoepidemiology-and-drug-safety.csl
@@ -148,7 +140,7 @@ MatchIt::matchit(
 
 <https://bernhardbieri.ch/blog/2022-08-25-litteralprogramminginstata/>
 
-## Popular legacy frameworks - RMarkdown
+## Popular legacy frameworks - RMarkdown {visibility="hidden"}
 
 -   `R`Markdown is a powerful open-source tool for combining analysis and reporting into the same document
 
@@ -156,11 +148,11 @@ MatchIt::matchit(
 
 [![Diagram illustrating how an RMarkdown document is converted to the final output document.](images/RMarkdown_workflow.png){#fig-rmarkdown-workflow fig-align="center" width="603"}](https://bookdown.org/yihui/rmarkdown-cookbook/rmarkdown-process.html)
 
-## Popular legacy frameworks - RMarkdown
+## Popular legacy frameworks - RMarkdown {visibility="hidden"}
 
 ![Example of an RMarkdown report and the corresponding output](images/RMarkdown_example.png){#fig-markdown-output fig-align="center"}
 
-## Popular legacy frameworks - Jupyter
+## Popular legacy frameworks - Jupyter {visibility="hidden"}
 
 -   [Project Jupyter](https://jupyter.org/about) is a non-profit, open-source project, born out of the [IPython Project](https://ipython.org/) in 2014 as it evolved to support interactive data science and scientific computing across all programming languages
 
@@ -168,11 +160,11 @@ MatchIt::matchit(
 
 [![Illustration of Jupyter notebook workflow](images/ipynb-how-it-works.png){#fig-jupyter-workflow fig-align="center"}](https://jjallaire.quarto.pub/intro-to-quarto/#/jupyter-engine)
 
-## Popular legacy frameworks - Jupyter
+## Popular legacy frameworks - Jupyter {visibility="hidden"}
 
 [![Example of a Jupyter Notebook report and the corresponding output](images/jupyterlab-preview.png){#fig-jupyter-example fig-align="center" width="600"}](https://quarto.org/docs/tools/jupyter-lab.html)
 
-## Document complexity of technical report {.hidden}
+## Document complexity of technical report {visibility="hidden"}
 
 > *Strengths and weaknesses of technical reporting systems*
 
@@ -182,7 +174,7 @@ MatchIt::matchit(
 
 > Dynamic study reporting
 
-## Introduction to Quarto {.hidden}
+## Introduction to Quarto {visibility="hidden"}
 
 -   An open-source scientific and technical publishing system
 

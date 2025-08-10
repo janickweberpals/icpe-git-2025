@@ -87,7 +87,7 @@ GitHub Desktop is a free, open-source application that provides a graphical user
 
 ### GitHub Account Setup {.unnumbered}
 
-GitHub is **a** web-based platform that uses Git for version control and collaboration on software development projects. It allows developers to store, manage, and share code, making it easier to work together on projects and track changes. Think of it as a social coding platform and a cloud-based storage for code.
+GitHub is a web-based platform that uses Git for version control and collaboration on software development projects. It allows developers to store, manage, and share code, making it easier to work together on projects and track changes. Think of it as a social coding platform and a cloud-based storage for code.
 
 You can sign-up for a free account (which is more than sufficient enough for the purposes of this course), which gives you access to GitHub's core features including:
 
