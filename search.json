@@ -204,7 +204,17 @@
     "href": "03_copilot.html",
     "title": "5  Introduction to GitHub Copilot",
     "section": "",
-    "text": "5.1 ISPE 2025 Slides",
+    "text": "5.1 ISPE 2025 Slides\nGitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI that suggests code completions, snippets, and entire functions directly within your code editor. It’s trained on a vast range of public code and natural language, enabling it to understand context and generate and review relevant code in real time. Developers and researchers use it to speed up coding, reduce repetitive work, and get inspiration for problem-solving—though it’s still important to review and test its suggestions for accuracy and security.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
+    ]
+  },
+  {
+    "objectID": "03_copilot.html#additional-resources",
+    "href": "03_copilot.html#additional-resources",
+    "title": "5  Introduction to GitHub Copilot",
+    "section": "5.2 Additional resources",
+    "text": "5.2 Additional resources\n\nOverview\nDocumentation\nTutorials\nPrompt engineering",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
     ]
