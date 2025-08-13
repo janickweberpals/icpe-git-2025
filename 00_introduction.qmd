@@ -74,7 +74,10 @@ Assistant Professor, London School for Hygiene and Tropical Medicine
 ::: callout-important
 ## Disclosure
 
-- Janick Weberpals is an employee at AstraZeneca and own shares in AstraZeneca. The views and opinions expressed in this presentation are those of the author and do not necessarily reflect the official policy or position of AstraZeneca. The author is presenting in a personal capacity.
+- JW is an employee at AstraZeneca and own shares in AstraZeneca. The views and opinions expressed in this presentation are those of the author and do not necessarily reflect the official policy or position of AstraZeneca. The author is presenting in a personal capacity.
+- SVW has been an ad hoc consultant to Cytel Inc, MITRE a federally funded research and development center for the Centers for Medicare and Medicaid Services, and the ACI Group for unrelated work.
+- AS is employed by LSHTM on a research grant funded by GSK. 
+- JT has no disclosures.
 :::
 
 # Warm up survey
