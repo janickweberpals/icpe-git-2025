@@ -43,7 +43,7 @@ library(gt)
 ```
 
 
-## Poll (raise your hands)
+## Poll (raise your hands) {visibility="hidden"}
 
 ::: incremental
 -   Who uses AI assistants (ChatGPT, Gemini, Claude, Mistral, ...) on a daily basis?
