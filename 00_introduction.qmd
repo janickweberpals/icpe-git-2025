@@ -82,7 +82,7 @@ Assistant Professor, London School for Hygiene and Tropical Medicine
 
 # Warm up survey
 
-## What is your background?
+## What is your background? {visibility="hidden"}
 
 -   Epidemiology
 -   Biostatistics
@@ -92,7 +92,7 @@ Assistant Professor, London School for Hygiene and Tropical Medicine
 -   Computer Science
 -   Other
 
-## Which sector are you working in?
+## Which sector are you working in? {visibility="hidden"}
 
 -   Academia
 -   Industry
@@ -100,7 +100,7 @@ Assistant Professor, London School for Hygiene and Tropical Medicine
 -   Tech
 -   Other
 
-## How far did you have to travel to D.C.?
+## How far did you have to travel to D.C.? {visibility="hidden"}
 
 -   North America
 -   South America
@@ -110,17 +110,17 @@ Assistant Professor, London School for Hygiene and Tropical Medicine
 -   Africa
 -   Oceania
 
-## Have you ever worked with git or any other system to version-control your analytic code?
+## Have you ever worked with git or any other system to version-control your analytic code? {visibility="hidden"}
 
 -   Yes
 -   No
 
-## Have you ever shared your own code via git?
+## Have you ever shared your own code via git? {visibility="hidden"}
 
 -   Yes
 -   No
 
-## Have you ever re-used someone else's code?
+## Have you ever re-used someone else's code? {visibility="hidden"}
 
 -   Yes
 -   No
