@@ -1,5 +1,5 @@
 ---
-title: "Introduction to GitHub Copilot"
+title: "GitHub Copilot"
 author:  Janick Weberpals
 date: "`r Sys.Date()`"
 date-format: long
@@ -13,7 +13,7 @@ GitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI 
 
 ## ISPE 2025 Slides
 
-<iframe src="03a_copilot_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe src="04a_copilot_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
 </iframe>
 
