@@ -39,6 +39,7 @@ csl: pharmacoepidemiology-and-drug-safety.csl
 library(googlesheets4)
 library(gt)
 library(dplyr)
+library(here)
 ```
 
 # Welcome to ICPE 2025
@@ -156,12 +157,13 @@ Assistant Professor, London School for Hygiene and Tropical Medicine
 ## Our agenda today
 
 ```{r}
-#| label: timetable
+#| label: tbl-timetable
+#| tbl-cap: "Course timetable."
 #| message: false
 #| echo: false
 
 gs4_deauth()
-read_sheet(
+tbl_schedule <- read_sheet(
   ss = Sys.getenv("timetable_url")
   ) |> 
   mutate(across(c(Start, End), ~ format(as.POSIXct(.x, format = "%H:%M"), format = "%H:%M"))) |>
@@ -169,7 +171,18 @@ read_sheet(
   relocate(Time, .before = Topic) |>
   select(-c(Duration, Start, End)) |> 
   gt() |> 
-  cols_align(align = "left")
+  cols_align(align = "left") |> 
+  cols_width(
+    Description ~ px(500),
+    everything() ~ px(150)
+    )
+
+gtsave(
+  data = tbl_schedule, 
+  filename = here("images", "tbl_schedule.png")
+  )
+
+knitr::include_graphics(here("images", "tbl_schedule.png"))
 ```
 
 ## Course materials
