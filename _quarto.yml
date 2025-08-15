@@ -14,8 +14,8 @@ book:
     - syllabus.qmd
     - 01_protocol.qmd
     - 02_intro.qmd
-    - 03_copilot.qmd
-    - 04_workshop.qmd
+    - 03_workshop.qmd
+    - 04_copilot.qmd
     - 05_reporting.qmd
 
   reader-mode: true

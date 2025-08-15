@@ -188,6 +188,10 @@ You can find all course materials, setup instructions and further useful resourc
 
 ![Link to course website section with step-by-step instructions on technical setup for this course.](images/qr-code-technical-setup.png){#fig-qr}
 
+## Important: Course evaluation
+
+![Instructions to complete the course eveluation in the conference app.](images/course_evaluation.png){#fig-evlaution}
+
 ## Course focus
 
 ::: incremental

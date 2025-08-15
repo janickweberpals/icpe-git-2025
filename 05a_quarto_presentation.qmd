@@ -739,4 +739,8 @@ Test it out yourself with the `Hello, Quarto` tutorial:
 
 -   [Reproducible Manuscripts with Quarto](https://youtu.be/0wB4K08ui4c?si=VT35-wT9fyBBiFVj)
 
+## Wrap up & Course evaluation
+
+![Instructions to complete the course eveluation in the conference app.](images/course_evaluation.png){#fig-evlaution}
+
 ## **References**

@@ -13,12 +13,6 @@ editor: visual
 
 In this session, we will build on the previous 'Introduction to `Git`' session. You will get hands-on experience using `Git`, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.
 
-## ICPE 2024 Slides
-
-<iframe src="https://docs.google.com/presentation/d/1-P3m_fHSpxvS_X0Ju0-jU-HcDH0vbN-5/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
-
-</iframe>
-
 ## Workshop Materials
 
 The following section provides details on the necessary setup steps for participating in this workshop.
