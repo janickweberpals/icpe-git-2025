@@ -80,7 +80,7 @@ Assistant Professor, London School for Hygiene and Tropical Medicine
 - JT has no disclosures.
 :::
 
-# Warm up survey
+# Warm up survey {visibility="hidden"}
 
 ## What is your background? {visibility="hidden"}
 
