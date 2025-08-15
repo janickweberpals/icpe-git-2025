@@ -17,7 +17,7 @@ In this session we will introduce you to git and Github, talk through different 
 
 ## ISPE 2025 Slides
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQBezqzL_Xq-XhuyGfAlG1mVipEEZyL8iukDE-4IGogTGzE65rSohqBwtxCwffMKQ/pubembed?start=false&amp;loop=false&amp;delayms=30000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQBezqzL_Xq-XhuyGfAlG1mVipEEZyL8iukDE-4IGogTGzE65rSohqBwtxCwffMKQ/pubembed?start=false&amp;loop=false&amp;delayms=30000" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
 </iframe>
 
