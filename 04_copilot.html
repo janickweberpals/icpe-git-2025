@@ -9,7 +9,7 @@
 <meta name="author" content="Janick Weberpals">
 <meta name="dcterms.date" content="2025-08-15">
 
-<title>5&nbsp; Introduction to GitHub Copilot – Let's git it started</title>
+<title>6&nbsp; Introduction to GitHub Copilot – Let's git it started</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./04_workshop.html" rel="next">
-<link href="./02_intro.html" rel="prev">
+<link href="./05_reporting.html" rel="next">
+<link href="./03_workshop.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03_copilot.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction to GitHub Copilot</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04_copilot.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction to GitHub Copilot</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -143,14 +143,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03_copilot.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction to GitHub Copilot</span></span></a>
+  <a href="./03_workshop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Git interactive hands-on workshop</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04_workshop.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Git interactive hands-on workshop</span></span></a>
+  <a href="./04_copilot.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction to GitHub Copilot</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -169,8 +169,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ispe-2025-slides" id="toc-ispe-2025-slides" class="nav-link active" data-scroll-target="#ispe-2025-slides"><span class="header-section-number">5.1</span> ISPE 2025 Slides</a></li>
-  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">5.2</span> Additional resources</a></li>
+  <li><a href="#ispe-2025-slides" id="toc-ispe-2025-slides" class="nav-link active" data-scroll-target="#ispe-2025-slides"><span class="header-section-number">6.1</span> ISPE 2025 Slides</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">6.2</span> Additional resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/janickweberpals/icpe-git-2025/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Introduction to GitHub Copilot</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Introduction to GitHub Copilot</span></h1>
 </div>
 
 
@@ -209,13 +209,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>GitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI that suggests code completions, snippets, and entire functions directly within your code editor. It’s trained on a vast range of public code and natural language, enabling it to understand context and generate and review relevant code in real time. Developers and researchers use it to speed up coding, reduce repetitive work, and get inspiration for problem-solving—though it’s still important to review and test its suggestions for accuracy and security.</p>
-<section id="ispe-2025-slides" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="ispe-2025-slides"><span class="header-section-number">5.1</span> ISPE 2025 Slides</h2>
+<section id="ispe-2025-slides" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="ispe-2025-slides"><span class="header-section-number">6.1</span> ISPE 2025 Slides</h2>
 <iframe src="03a_copilot_presentation.html" frameborder="0" width="725" height="440.6641" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 </section>
-<section id="additional-resources" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">5.2</span> Additional resources</h2>
+<section id="additional-resources" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">6.2</span> Additional resources</h2>
 <ul>
 <li><a href="https://github.com/features/copilot">Overview</a></li>
 <li><a href="https://docs.github.com/copilot">Documentation</a></li>
@@ -635,13 +635,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="./02_intro.html" class="pagination-link" aria-label="Introduction to git">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Introduction to git</span></span>
+      <a href="./03_workshop.html" class="pagination-link" aria-label="Git interactive hands-on workshop">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Git interactive hands-on workshop</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./04_workshop.html" class="pagination-link" aria-label="Git interactive hands-on workshop">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Git interactive hands-on workshop</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./05_reporting.html" class="pagination-link" aria-label="An introduction to Quarto">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">An introduction to Quarto</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

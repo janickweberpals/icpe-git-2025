@@ -104,7 +104,7 @@
     "href": "syllabus.html#syllabus",
     "title": "2  Syllabus",
     "section": "Syllabus",
-    "text": "Syllabus\nIn this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following FAIR (Findable, Accessible, Interoperable and Reproducible) principles.\n\n\n\n\nTable 2.1: Detailed course timetable\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n14:30 - 14:40\nWelcome and introduction\nJanick Weberpals\nWelcome, housekeeping, and introduction to the topic\n\n\n14:40 - 15:00\nDESIGN STAGE: HARPER template\nShirley V. Wang\nA harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)\n\n\n15:00 - 16:10\nANALYSIS STAGE: Git and GitHub\nAnna Schultze, John Tazare\nIntroduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists. This will be followed by interactive case study for part in which every course participant can try git hands-on.\n\n\n16:10 - 16:40\nCOFFEE BREAK\n-\nTake a break and enjoy a tasty coffee\n\n\n16:40 - 17:20\nANALYSIS STAGE: Github Copilot\nJanick Weberpals, Anna Schultze, John Tazare\nIntroduction to AI-based tools to support and augment code development, quality control, transparency and reproducibility\n\n\n17:20 - 17:50\nREPORTING STAGE: Quarto introduction\nJanick Weberpals\nIntroduction and examples of literate programming using the Quarto technical reporting system\n\n\n17:50 - 18:00\nCOURSE CONCLUSION\nJanick Weberpals\nFuture direction and trends & resources for where to go to learn more",
+    "text": "Syllabus\nIn this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following FAIR (Findable, Accessible, Interoperable and Reproducible) principles.\n\n\n\n\nTable 2.1: Detailed course timetable\n\n\n\n\n\n\n\n\n\nTime\nTopic\nInstructor\nDescription\n\n\n\n\n14:30 - 14:40\nWelcome and introduction\nJanick Weberpals\nWelcome, housekeeping, and introduction to the topic\n\n\n14:40 - 15:00\nDESIGN STAGE: HARPER template\nShirley V. Wang\nA harmonized protocol template to enhance reproducibility of hypothesis evaluating real-world evidence studies on treatment effects (HARPER protocol)\n\n\n15:00 - 16:10\nANALYSIS STAGE: Git and GitHub\nAnna Schultze, John Tazare\nIntroduction to the Git distributed version control system and remote repositories (e.g., GitHub) to track changes, collaborate, disseminate and archive analytic source code through dedicated project repositories that maintain a complete audit trail of all relevant study documents including code lists. This will be followed by interactive case study for part in which every course participant can try git hands-on.\n\n\n16:10 - 16:40\nCOFFEE BREAK\n-\nTake a break and enjoy a tasty coffee\n\n\n16:40 - 17:20\nANALYSIS STAGE: Github Copilot\nJanick Weberpals\nIntroduction to AI-based tools to support and augment code development, quality control, transparency and reproducibility\n\n\n17:20 - 17:50\nREPORTING STAGE: Quarto introduction\nJanick Weberpals\nIntroduction and examples of literate programming using the Quarto technical reporting system\n\n\n17:50 - 18:00\nCOURSE CONCLUSION & EVALUATION\nJanick Weberpals\nFuture direction and trends & resources for where to go to learn more. Completing course evaluation.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Syllabus</span>"
     ]
@@ -200,63 +200,53 @@
     ]
   },
   {
-    "objectID": "03_copilot.html",
-    "href": "03_copilot.html",
-    "title": "5  Introduction to GitHub Copilot",
+    "objectID": "03_workshop.html",
+    "href": "03_workshop.html",
+    "title": "5  Git interactive hands-on workshop",
     "section": "",
-    "text": "5.1 ISPE 2025 Slides\nGitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI that suggests code completions, snippets, and entire functions directly within your code editor. It’s trained on a vast range of public code and natural language, enabling it to understand context and generate and review relevant code in real time. Developers and researchers use it to speed up coding, reduce repetitive work, and get inspiration for problem-solving—though it’s still important to review and test its suggestions for accuracy and security.",
+    "text": "5.1 Session Introduction\nIn this session, we will build on the previous ‘Introduction to Git’ session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
   {
-    "objectID": "03_copilot.html#additional-resources",
-    "href": "03_copilot.html#additional-resources",
-    "title": "5  Introduction to GitHub Copilot",
-    "section": "5.2 Additional resources",
-    "text": "5.2 Additional resources\n\nOverview\nDocumentation\nTutorials\nPrompt engineering",
+    "objectID": "03_workshop.html#workshop-materials",
+    "href": "03_workshop.html#workshop-materials",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.2 Workshop Materials",
+    "text": "5.2 Workshop Materials\nThe following section provides details on the necessary setup steps for participating in this workshop.\n\n5.2.1 Software Installation\nYou will need to install Git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):\n\nMain Git website to download (with guides for Mac, Windows and Linux) and learn more about Git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n5.2.2 Git Configuration\nOn first-time use, name and email address are required to configure Git. This differs by whether you are using command line or GitHub Desktop\n\nGitHub Desktop: You will be prompted to configure Git when first opening the application.\nCommand Line: You will need to type the followiing into the console (updating to your login details):\n\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email xxx@example.com\n\n\n5.2.3 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. (This is not essential for the workshop).\n\n\n5.2.4 Files\n\nPlease download the following two files:\n\nInstructions\nProject files\n\n\n\n\n5.2.5 Questions\nDuring the session, you are welcome to post questions in this Google Document (which the tutors will monitor).",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
   },
   {
-    "objectID": "04_workshop.html",
-    "href": "04_workshop.html",
-    "title": "6  Git interactive hands-on workshop",
+    "objectID": "03_workshop.html#additional-resources",
+    "href": "03_workshop.html#additional-resources",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.3 Additional Resources",
+    "text": "5.3 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "04_copilot.html",
+    "href": "04_copilot.html",
+    "title": "6  Introduction to GitHub Copilot",
     "section": "",
-    "text": "6.1 Session Introduction\nIn this session, we will build on the previous ‘Introduction to Git’ session. You will get hands-on experience using Git, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.",
+    "text": "6.1 ISPE 2025 Slides\nGitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI that suggests code completions, snippets, and entire functions directly within your code editor. It’s trained on a vast range of public code and natural language, enabling it to understand context and generate and review relevant code in real time. Developers and researchers use it to speed up coding, reduce repetitive work, and get inspiration for problem-solving—though it’s still important to review and test its suggestions for accuracy and security.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
     ]
   },
   {
-    "objectID": "04_workshop.html#icpe-2024-slides",
-    "href": "04_workshop.html#icpe-2024-slides",
-    "title": "6  Git interactive hands-on workshop",
-    "section": "6.2 ICPE 2024 Slides",
-    "text": "6.2 ICPE 2024 Slides",
+    "objectID": "04_copilot.html#additional-resources",
+    "href": "04_copilot.html#additional-resources",
+    "title": "6  Introduction to GitHub Copilot",
+    "section": "6.2 Additional resources",
+    "text": "6.2 Additional resources\n\nOverview\nDocumentation\nTutorials\nPrompt engineering",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
-    ]
-  },
-  {
-    "objectID": "04_workshop.html#workshop-materials",
-    "href": "04_workshop.html#workshop-materials",
-    "title": "6  Git interactive hands-on workshop",
-    "section": "6.3 Workshop Materials",
-    "text": "6.3 Workshop Materials\nThe following section provides details on the necessary setup steps for participating in this workshop.\n\n6.3.1 Software Installation\nYou will need to install Git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):\n\nMain Git website to download (with guides for Mac, Windows and Linux) and learn more about Git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n6.3.2 Git Configuration\nOn first-time use, name and email address are required to configure Git. This differs by whether you are using command line or GitHub Desktop\n\nGitHub Desktop: You will be prompted to configure Git when first opening the application.\nCommand Line: You will need to type the followiing into the console (updating to your login details):\n\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email xxx@example.com\n\n\n6.3.3 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. (This is not essential for the workshop).\n\n\n6.3.4 Files\n\nPlease download the following two files:\n\nInstructions\nProject files\n\n\n\n\n6.3.5 Questions\nDuring the session, you are welcome to post questions in this Google Document (which the tutors will monitor).",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
-    ]
-  },
-  {
-    "objectID": "04_workshop.html#additional-resources",
-    "href": "04_workshop.html#additional-resources",
-    "title": "6  Git interactive hands-on workshop",
-    "section": "6.4 Additional Resources",
-    "text": "6.4 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
     ]
   },
   {
