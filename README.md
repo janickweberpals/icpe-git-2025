@@ -25,7 +25,7 @@ increase the transparency and reproducibility across the design,
 analysis and reporting stages of a RWE study.
 
 - Course material: Course materials can be found at
-  <https://github.com/janickweberpals/icpe-git-2025>
+  <https://janickweberpals.github.io/icpe-git-2025/>
 - Poll everywhere survey can be found at …
 
 ## Introduction
