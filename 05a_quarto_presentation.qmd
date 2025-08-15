@@ -353,17 +353,17 @@ smdi_vis(smdi_data)
 ```` markdown
 ```{{mermaid}}
 flowchart LR
-  C(Confounder) --> E(Exposure)
-  C(Confounder) --> O(Outcome)
-  E(Exposure) --> O(Outcome)
+  C(C) --> E(E)
+  C(C) --> O(O)
+  E(E) --> O(O)
 ```
 ````
 
 ```{mermaid}
 flowchart LR
-  C(Confounder) --> E(Exposure)
-  C(Confounder) --> O(Outcome)
-  E(Exposure) --> O(Outcome)
+  C(C) --> E(E)
+  C(C) --> O(O)
+  E(E) --> O(O)
 ```
 
 ## Tables
