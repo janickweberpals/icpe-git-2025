@@ -232,61 +232,61 @@
   {
     "objectID": "04_copilot.html",
     "href": "04_copilot.html",
-    "title": "6  Introduction to GitHub Copilot",
+    "title": "6  GitHub Copilot",
     "section": "",
     "text": "6.1 ISPE 2025 Slides\nGitHub Copilot is an AI-powered coding assistant developed by GitHub and OpenAI that suggests code completions, snippets, and entire functions directly within your code editor. It’s trained on a vast range of public code and natural language, enabling it to understand context and generate and review relevant code in real time. Developers and researchers use it to speed up coding, reduce repetitive work, and get inspiration for problem-solving—though it’s still important to review and test its suggestions for accuracy and security.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>GitHub Copilot</span>"
     ]
   },
   {
     "objectID": "04_copilot.html#additional-resources",
     "href": "04_copilot.html#additional-resources",
-    "title": "6  Introduction to GitHub Copilot",
+    "title": "6  GitHub Copilot",
     "section": "6.2 Additional resources",
     "text": "6.2 Additional resources\n\nOverview\nDocumentation\nTutorials\nPrompt engineering",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Introduction to GitHub Copilot</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>GitHub Copilot</span>"
     ]
   },
   {
     "objectID": "05_reporting.html",
     "href": "05_reporting.html",
-    "title": "7  An introduction to Quarto",
+    "title": "7  Quarto",
     "section": "",
     "text": "7.1 Slide deck",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Quarto</span>"
     ]
   },
   {
     "objectID": "05_reporting.html#example-study-report-created-using-quarto",
     "href": "05_reporting.html#example-study-report-created-using-quarto",
-    "title": "7  An introduction to Quarto",
+    "title": "7  Quarto",
     "section": "7.2 Example study report created using Quarto",
     "text": "7.2 Example study report created using Quarto\n\nhttps://drugepi.gitlab-pages.partners.org/hdmi-manuscript/",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Quarto</span>"
     ]
   },
   {
     "objectID": "05_reporting.html#setting-up-quarto-with-sas-and-stata",
     "href": "05_reporting.html#setting-up-quarto-with-sas-and-stata",
-    "title": "7  An introduction to Quarto",
+    "title": "7  Quarto",
     "section": "7.3 Setting up Quarto with SAS and STATA",
     "text": "7.3 Setting up Quarto with SAS and STATA\n\nSetup with SAS (setup, demo) and STATA\n\n\n\n\nAchieving a seamless workflow between R, Python and SAS from within RStudio\n\n\nSAS engine via Quarto",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Quarto</span>"
     ]
   },
   {
     "objectID": "05_reporting.html#quarto-for-reproducible-medical-manuscripts",
     "href": "05_reporting.html#quarto-for-reproducible-medical-manuscripts",
-    "title": "7  An introduction to Quarto",
+    "title": "7  Quarto",
     "section": "7.4 Quarto for reproducible medical manuscripts",
     "text": "7.4 Quarto for reproducible medical manuscripts\n\nTalk by Mine Çetinkaya-Rundel on Quarto’s new manuscript document type and how it can be used to create reproducible medical manuscripts (talk delivered at R/Medicine conference 2024)\n&lt;/li&gt;\n&lt;/ul&gt;\n\n\nThe slide deck and more information can be found at https://quarto.org/docs/blog/posts/2024-04-01-manuscripts-rmedicine/",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>An introduction to Quarto</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Quarto</span>"
     ]
   }
 ]
