@@ -40,6 +40,7 @@ library(googlesheets4)
 library(gt)
 library(dplyr)
 library(here)
+library(webshot2)
 ```
 
 # Welcome to ICPE 2025
