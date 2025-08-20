@@ -11,25 +11,27 @@ editor: visual
 
 ## Session Introduction
 
-In this session, we will build on the previous 'Introduction to `Git`' session. You will get hands-on experience using `Git`, applying some of the tools presented in the context of a hypothetical project. You’ll find the setup instructions, materials and slides for this session below.
+In this workshop, delivered within the 'Introduction to `git`' session, you will get hands-on experience using `git`, applying some of the tools presented in the context of a hypothetical project. You'll find the setup instructions and materials below.
 
 ## Workshop Materials
 
-The following section provides details on the necessary setup steps for participating in this workshop.
+Please ensure you have completed the following setup steps for participating in this workshop before attempting the tasks described in subsequent sections.
+
+Alternatively, follow the `git` and GitHub sections of the Technical Setup on the course webpage [here](https://janickweberpals.github.io/icpe-git-2025/syllabus.html#technical-setup)
 
 ### Software Installation
 
-You will need to install `Git` (and optionally GitHub Desktop, if you do not plan to follow along using the command line):
+You will need to install `git` (and optionally GitHub Desktop, if you do not plan to follow along using the command line):
 
--   Main `Git` website to download (with guides for Mac, Windows and Linux) and learn more about `Git:` <https://git-scm.com>
+-   Main `git` website to download (with guides for Mac, Windows and Linux) and learn more about `git:` <https://git-scm.com>
 
 -   GitHub Desktop App: <https://desktop.github.com/>
 
 ### Git Configuration
 
-On first-time use, name and email address are required to configure `Git`. This differs by whether you are using command line or GitHub Desktop
+On first-time use, name and email address are required to configure `git`. This differs by whether you are using command line or GitHub Desktop
 
--   GitHub Desktop: You will be prompted to configure `Git` when first opening the application.
+-   GitHub Desktop: You will be prompted to configure `git` when first opening the application.
 
 -   Command Line: You will need to type the followiing into the console (updating to your login details):
 
@@ -53,12 +55,8 @@ Note: More generally, we recommend that you [setup two-factor authentication to 
 ### Files
 
 -   Please download the following two files:
-    -   [Instructions](https://drive.google.com/file/d/14lGUbbt6pTvxAs_CihipR9T0olEExtmM/view?usp=sharing)
-    -   [Project files](https://drive.google.com/file/d/1BeYgo_0jIcD8FoLEpdsfTvZ4vkjoJzx5/view?usp=share_link)
-
-### Questions
-
-During the session, you are welcome to post questions in this [Google Document](https://docs.google.com/document/d/1BT_AqfW0Emhs1VmHBTRnyuzXH57In9R_WTT1Zj0Irm4/edit?usp=sharing) (which the tutors will monitor).
+    -   [Instructions (provided as a rendered html file)](https://drive.google.com/file/d/1RmYvFtgmztCFlIu_wYJBIct5cTYA87Jh/view?usp=share_link)
+    -   [Project files (provided in zip folder)](https://drive.google.com/file/d/1CF6kZJFO6__4W-NtVQ43RyyZjj2phyoe/view?usp=share_link)
 
 ## Additional Resources
 
