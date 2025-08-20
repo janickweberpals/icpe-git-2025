@@ -18,7 +18,7 @@ This site provides some further information on the objectives and syllabus/organ
 
 > Course Date: August 25, 2024 (9am-12:30pm, Berlin)
 
-## Course Objectives {.unnumbered}
+## Course Objectives 
 
 Attendees of this advanced methods couse will learn how to implement transparent and reproducible workflows across the real-world evidence study lifecycle.
 
@@ -37,7 +37,7 @@ C(Reporting stage)
 
 -   [**Reporting stage:**]{.underline} Use **literate programming** by combining narrative language, analytic code and study results for **transparent and reproducible study reporting**
 
-## Syllabus {.unnumbered}
+## Syllabus 
 
 In this practical hands-on course, we introduce resources and tools needed for the transparent and reproducible conduct of RWE studies following **FAIR (Findable, Accessible, Interoperable and Reproducible)** principles.
 
@@ -59,11 +59,11 @@ read_sheet(
   cols_align(align = "left")
 ```
 
-## Technical Setup {.unnumbered}
+## Technical Setup 
 
 This section provides some step-by-step instructions on how to install relevant software discussed and presented throughout the course.
 
-### Download and install `git` {.unnumbered}
+### Download and install `git` 
 
 Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It comes as a command line software, i.e., natively there is no graphical user interface (GUI) as you may be used to from other commonly used software. However, GUI applications (which make the handling of git commands easier, especially for beginners) are available and described in @sec-github-desktop.
 
@@ -73,9 +73,9 @@ Git is a [free and open source](https://git-scm.com/about/free-and-open-source)
 
 ![Install git from the git website](images/git-install.png){#fig-install-git}
 
-### GitHub Desktop {#github-desktop .unnumbered}
+### GitHub Desktop {#sec-github-desktop}
 
-GitHub Desktop is a free, open-source application that provides a graphical user interface (GUI) for interacting with Git and GitHub, simplifying tasks like committing, pushing, and pulling changes, as well as managing repositories. It aims to make using Git and collaborating on GitHub more accessible, especially for those who prefer not to use the command line. 
+GitHub Desktop is a free, open-source application that provides a graphical user interface (GUI) for interacting with Git and GitHub, simplifying tasks like committing, pushing, and pulling changes, as well as managing repositories. It aims to make using Git and collaborating on GitHub more accessible, especially for those who prefer not to use the command line.
 
 -   Step 1: Go to <https://github.com/apps/desktop>
 
@@ -85,7 +85,7 @@ GitHub Desktop is a free, open-source application that provides a graphical user
 
 ![Install the GitHub Desktop to interact with Git via a graphical user interface.](images/github-desktop-install.png){#fig-github-desktop}
 
-### GitHub Account Setup {.unnumbered}
+### GitHub Account Setup {#sec-github-account }
 
 GitHub is a web-based platform that uses Git for version control and collaboration on software development projects. It allows developers to store, manage, and share code, making it easier to work together on projects and track changes. Think of it as a social coding platform and a cloud-based storage for code.
 
@@ -111,7 +111,7 @@ Often larger organizations such as universities and companies also have (paid) e
 
 ![Landing page to sign up for a GitHub account.](images/github-account-signup.png){#fig-github-account-signup}
 
-### GitHub Copilot {.unnumbered}
+### GitHub Copilot {#sec-github-copilot }
 
 GitHub Copilot is a generative AI tool that functions as a coding assistant to help you write code faster and so much more.
 
@@ -123,7 +123,7 @@ GitHub Copilot is a generative AI tool that functions as a coding assistant to h
 
 ![Signup landing website for GitHub Copilot.](images/github-copilot-signup.png){#github-copilot}
 
-### Visual Studio (VS) Code {.unnumbered}
+### Visual Studio (VS) Code 
 
 Visual Studio Code (VS Code) is a free, open-source, and highly customizable code editor developed by Microsoft. It's known for its lightweight nature, powerful features, and extensive extensibility through extensions. VS Code is used by developers for various tasks, including editing, debugging, and managing code. One of the key strengths of VS Code is its extensibility. The VS Code Marketplace offers a vast collection of extensions that add functionality for various programming languages, frameworks, and tools.
 
@@ -135,9 +135,9 @@ Visual Studio Code (VS Code) is a free, open-source, and highly customizable cod
 
 ![Download and install the VSCode integrated development environment (IDE).](images/vscode-install.png){#fig-vscode-install}
 
-### Fork the GitHub Codespaces Template {.unnumbered}
+### Fork the GitHub Codespaces Template 
 
-GitHub Codespaces provides cloud-powered development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with these environments from Visual Studio Code or in a browser-based editor. GitHub Codespaces comes with a[ free plan for personal accounts ](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts)but can also be extended to a paid plan that comes with more storage and compute hours.
+GitHub Codespaces provides cloud-powered development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with these environments from Visual Studio Code or in a browser-based editor. GitHub Codespaces comes with a [free plan for personal accounts](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts) but can also be extended to a paid plan that comes with more storage and compute hours.
 
 One of the core strengths is that it's cloud-based and dependencies can be dockerized, i.e., it allows researchers to create and access complete and customized development environments remotely, directly from a web browser. For example, you may be using a specific combination of a local operating system (Windows, MacOS or Linux), a specific version of a programming language (e.g., R version 4.4.1) and a suite of R packages in their respective versions. With GitHub Codespaces you can create such a highly customized environments and reproduce (even share) these at the click of a button.
 
@@ -147,12 +147,12 @@ We created such an environment for this course and you can access it by followin
 2.  Go to <https://github.com/janickweberpals/codespaces-template>
 3.  Click on **Fork** (@fig-fork-1) to create a forked version on your GitHub account
 
-![](images/fork-codespaces-1.png){#fig-fork-1}
+![Fork the codespace template.](images/fork-codespaces-1.png){#fig-fork-1}
 
 4.  Optional: Rename your forked version (e.g., my-codespace-ICPE25, see @fig-fork-2)
 
-![](images/fork-codespaces-2.png){#fig-fork-2}
+![Rename the personal fork (copy) of the codespace.](images/fork-codespaces-2.png){#fig-fork-2}
 
 5.  Go to `Code > Codespaces > Create codespace on main` (@fig-start-codespace)
 
-![](images/start-codespace.png){#fig-start-codespace}
+![Creating and starting a codespace on the main branch.](images/start-codespace.png){#fig-start-codespace}
