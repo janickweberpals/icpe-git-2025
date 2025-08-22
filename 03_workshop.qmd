@@ -19,7 +19,7 @@ Please ensure you have completed the following setup steps for participating in 
 
 Alternatively, follow the `git` and GitHub sections of the Technical Setup on the course webpage [here](https://janickweberpals.github.io/icpe-git-2025/syllabus.html#technical-setup)
 
-### Software Installation
+## Software Installation
 
 You will need to install `git` (and optionally GitHub Desktop, if you do not plan to follow along using the command line):
 
@@ -27,20 +27,20 @@ You will need to install `git` (and optionally GitHub Desktop, if you do not pla
 
 -   GitHub Desktop App: <https://desktop.github.com/>
 
-### Git Configuration
+## Git Configuration
 
 On first-time use, name and email address are required to configure `git`. This differs by whether you are using command line or GitHub Desktop
 
 -   GitHub Desktop: You will be prompted to configure `git` when first opening the application.
 
--   Command Line: You will need to type the followiing into the console (updating to your login details):
+-   Command Line: You will need to type the following into the console (updating to your login details):
 
 ```         
 git config --global user.name "<username>"
 git config --global user.email xxx@example.com
 ```
 
-### GitHub Account
+## GitHub Account
 
 To participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.
 
@@ -50,13 +50,177 @@ Otherwise, please create one following the steps below.
 2.  Click the "Sign up" button.
 3.  Provide an email address and password.
 
-Note: More generally, we recommend that you [setup two-factor authentication to secure your account](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa). **(This is not essential for the workshop).**
+Note: More generally, we recommend that you [setup two-factor authentication to secure your account](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
 
-### Files
+**(This is not essential for the workshop).**
 
--   Please download the following two files:
-    -   [Instructions (provided as a rendered html file)](https://drive.google.com/file/d/1RmYvFtgmztCFlIu_wYJBIct5cTYA87Jh/view?usp=share_link)
-    -   [Project files (provided in zip folder)](https://drive.google.com/file/d/1CF6kZJFO6__4W-NtVQ43RyyZjj2phyoe/view?usp=share_link)
+## Files
+
+-   Please download the following file:
+    -   [Project files (provided in a zip folder)](https://drive.google.com/file/d/1CF6kZJFO6__4W-NtVQ43RyyZjj2phyoe/view?usp=share_link)
+
+## Helpful resources
+
+The following resources, from the 'Introduction to Git' session, may be helpful for completing the tasks below:
+
+-   [Git glossary](https://janickweberpals.github.io/icpe-git-2025/02_intro.html#git-glossary)
+-   ['How to' for common tasks](https://janickweberpals.github.io/icpe-git-2025/02_intro.html#how-to-for-common-tasks)
+
+## Exercise 1: Introduction to Git/GitHub
+
+### Creating a repository
+
+You have recently joined a team where your manager has asked you to use Git for at the start of a new project, investigating the effectiveness of proton pump inhibitors (PPIs).
+
+You will first have to **create a repository** for this project and then **clone this repository** to your local computer.
+
+1.  Navigate to [GitHub.com](www.github.com) and login to your account.
+
+2.  Find and click the **'New'** repository button (shown to the right)
+
+3.  Provide a **repository name** and **description**
+
+-   E.g 'ppi-project' and 'Repository for project investigating the effectiveness of proton pump inhibitors.
+
+4.  Tick the box **'Public'** under repository visibility options
+
+-   Note: this can be changed later and some projects, in practice, may start 'Private' and then become 'Public' at the point of pre-printing/publication.
+
+5.  Tick the box **'Add a README file'**
+
+6.  Under .gitignore, select 'R' from the dropdown menu.
+
+-   Note: you might initially select .gitignore based on the language you anticipate coding the most in and update, as necessary, if other languages are also used.
+
+7.  Under license, select **'MIT'** from the dropdown menu.
+
+8.  Click **'Create repository'**
+
+### Cloning a repository
+
+Having created the repository, let's now clone this repository to our local computer.
+
+1.  On [GitHub.com](www.github.com), navigate to the **main page of the repository**
+    -   Note: if following directly from the previous step - this will be the current page.
+2.  Above the list of files, click **'Code'** and a drop-down menu should appear (see below)
+
+![](images/workshop/git-clone.png){fig-align="center"}
+
+3.  Click **'Open with GitHub Desktop'** and the prompt below should appear.
+
+4.  Check the repository URL refers to [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY]() and specify your own local path (the folder where the repository will be cloned to). Click **'Clone'**.
+
+![](images/workshop/git-clone-gh.png){fig-align="center"}
+
+## Exercise 2: Basic Git workflow
+
+### Initial stage and .gitignore
+
+Your manager sends you some files that a previous analyst developed for a similar project and asks you to **add these flies to your repository**.
+
+1.  Navigate to the location where you downloaded the 'Project' folder and unzip these files - you should see 4 folders named "code", "data", "docs", "output".
+
+2.  **Copy** or **Move** these folders to the location where you cloned the repository - your local repository folder should look as below.
+
+![](images/workshop/repo-files.png){fig-align="center"}
+
+3.  Return to **GitHub Desktop**. You should now see the code files in the **'Change Files'** window. Make sure these are ticked, the 'ticking' indicates the files are **staged**.
+
+![](images/workshop/ghd-staged.png){fig-align="center"}
+
+4.  **A note on '.gitignores'.**
+
+-   In this case, we're using fully simulated and are happy for this to be on GitHub.com. However, usually when working with data from a healthcare database we would **not** want to upload this to GitHub! One way of avoiding this is to add a folder and/or specific file type to our '.gitignore' file - this stops files meeting these criteria being upload. See below, we've added a line to the '.gitignore' file - how has this changed the files we had **staged**?
+
+![](images/workshop/ghd-staged-gitignore.png){fig-align="center"}
+
+### Initial commit and push
+
+5.  **Add a 'Commit' message** e.g. "Add existing files to repo". Click **'Commit to main'**.
+
+![](images/workshop/ghd-staged-msg.png){fig-align="center"}
+
+6.  Click **Push Origin** in the top right-hand corner within the repository bar. Go to check your repository on GitHub.com and see the files!
+
+![](images/workshop/ghd-push.png){fig-align="center"}
+
+## Exercise 3: Git across a project
+
+### Creating and publishing a branch
+
+At the next meeting, your manager mentions that this project will be able to use a similar propensity score model to the previous project.
+
+However, in this project, as well as including all the variables in the original propensity score model, they ask you to additionally include a variable representing history of hypertension (called 'hyper' in the dataset).
+
+1.  Return to GitHub Desktop and click **'Fetch origin'** (nothing should happen if the files are up-to-date, but this is a good habit!).
+
+2.  To update this file, we're going to first **create a Branch**. Click the 'Current Branch' tab within the repository bar and **add a name for the Branch** e.g. 'update-pscore'. Click **'New Branch'**
+
+![](images/workshop/ghd-new-branch.png){fig-align="center"}
+
+3.  The following pop-up should appear - Click **'Create Branch'**.
+
+![](images/workshop/ghd-create-branch.png){fig-align="center"}
+
+4.  Click **'Publish Branch'** in the top right-hand corner of the repository bar
+
+![](images/workshop/ghd-publish-branch.png){fig-align="center"}
+
+### Updating a file
+
+1.  Navigate to your local repository. Open the 'code' subfolder and then open the **'001_pscore_analysis.R'** file either in R Studio or any text editor available (Notepad, TextEdit, Visual Studio etc).
+
+2.  We need to add the hypertension variable (i.e. '+ hyper') to our propensity score model and model diagnostics (Lines 46, 72, 77).
+
+![](images/workshop/add-pscore.png){fig-align="center"}
+
+3.  Save the updated file (do not change the file name) and return to GitHub Desktop.
+
+4.  You should now see the edited file in the **'Change Files'** window. Check this file is ticked (**staged**). Check the correct variable has been added in the diff window.
+
+![](images/workshop/ghd-update-file.png){fig-align="center"} 5. Add a **'Commit message'**, e.g. 'Update pscore model'. Click **'Commit to update-pscore'**.
+
+![](images/workshop/ghd-update-file-commit.png){fig-align="center"}
+
+6.  Click **Push Origin** in the top right-hand corner within the repository bar.
+
+### Creating a pull request
+
+Now we have made the changes on our 'update-pscore' branch, let's merge these into the 'main' branch.
+
+1.  Navigate to your repository at GitHub.com. Select the **'Pull requests'** tab.
+
+![](images/workshop/gh-pr.png){fig-align="center"} 2. Click **New pull request**.
+
+![](images/workshop/gh-pr-tab.png){fig-align="center"}
+
+3.  We want to compare the 'main' branch to our 'update-pscore' branch. Select 'update-pscore' brnach from the **'compare' drop-down menu**.
+
+![](images/workshop/gh-pr-select-branch.png){fig-align="center"} 4. Once the 'Comparing changes' page updates to show the update file(s), click **Create pull request**.
+
+![](images/workshop/gh-pr-compare-changes.png){fig-align="center"} 5. Add a description about the purpose of the pull request. Click **Create pull request**. ![](images/workshop/gh-pr-doc-changes.png){fig-align="center"} 6. **A note on 'reviewers'.** - On the right-hand side of the screenshot above, we can add **'reviewers'** - members of the team we would like to review the changes before we merge them. To be a reviewer, a person must have a GitHub account and be a collaborator for the repository. Navigate to the 'Settings' tab and select 'Collaborators' under 'Access' heading on the left-hand side. Click 'Add people' and you'll be prompted to enter the GitHub usernames for collaborators. Afterwards, they can be added as 'reviewers' and comment on the changes.
+
+### Merging a pull request
+
+1.  Before merging, a reviewer would typically comment on the suitability of merging the proposed code. In this case, the changes are minimal and quick to check, therefore a comment as below may be added.
+
+![](images/workshop/gh-merge-comment.png){fig-align="center"} 2. Once we're happy to merge these changes, we can click **'Merge pull request'**.
+
+3.  We can see confirmation that this branch has been merged into **main** and can now safely delete the 'update-pscore' branch.
+
+![](images/workshop/gh-merge-closed.png){fig-align="center"}
+
+### Checking merge
+
+1.  Navigate back to GitHub Desktop. Change the 'Current branch' to 'main'.
+
+![](images/workshop/ghd-pr-back-to-main.png){fig-align="center"}
+
+2.  You can now 'Pull' the changes from the branch we have merged to the main branch on your local computer. Click **Pull origin** in the top right-hand corner within the repository bar.
+
+![](images/workshop/ghd-pr-pull.png){fig-align="center"}
+
+3.  Navigate to your local repository folder and see the updated file!
 
 ## Additional Resources
 
