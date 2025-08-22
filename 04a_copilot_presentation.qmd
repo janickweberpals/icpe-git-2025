@@ -249,10 +249,6 @@ Use a step by step approach:
 
 {{< video "https://www.youtube-nocookie.com/embed/Da1we9DFVKE?si=njIYmeRzZXTCTasW" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
 
-## Copilot in Action (Git Workflow)
-
-{{< video "https://www.youtube-nocookie.com/embed/C_WMDhNw9Tg?si=O6p34AkMSHJFiSR6" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
-
 ## Questions?
 
 Give it a try in your next project!
@@ -260,5 +256,10 @@ Give it a try in your next project!
 -   [Overview](https://github.com/features/copilot)
 -   [Documentation](https://docs.github.com/copilot)
 -   [Tutorials](https://github.com/features/copilot/tutorials)
+
+## Copilot in Action (Git Workflow)
+
+{{< video "https://www.youtube-nocookie.com/embed/C_WMDhNw9Tg?si=O6p34AkMSHJFiSR6" width="1100" height="668.5938068966" aspect-ratio="16x9" >}}
+
 
 ## References
