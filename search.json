@@ -214,7 +214,87 @@
     "href": "03_workshop.html#workshop-materials",
     "title": "5  Git interactive hands-on workshop",
     "section": "5.2 Workshop Materials",
-    "text": "5.2 Workshop Materials\nPlease ensure you have completed the following setup steps for participating in this workshop before attempting the tasks described in subsequent sections.\nAlternatively, follow the git and GitHub sections of the Technical Setup on the course webpage here\n\n5.2.1 Software Installation\nYou will need to install git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):\n\nMain git website to download (with guides for Mac, Windows and Linux) and learn more about git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/\n\n\n\n5.2.2 Git Configuration\nOn first-time use, name and email address are required to configure git. This differs by whether you are using command line or GitHub Desktop\n\nGitHub Desktop: You will be prompted to configure git when first opening the application.\nCommand Line: You will need to type the followiing into the console (updating to your login details):\n\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email xxx@example.com\n\n\n5.2.3 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account. (This is not essential for the workshop).\n\n\n5.2.4 Files\n\nPlease download the following two files:\n\nInstructions (provided as a rendered html file)\nProject files (provided in zip folder)",
+    "text": "5.2 Workshop Materials\nPlease ensure you have completed the following setup steps for participating in this workshop before attempting the tasks described in subsequent sections.\nAlternatively, follow the git and GitHub sections of the Technical Setup on the course webpage here",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#software-installation",
+    "href": "03_workshop.html#software-installation",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.3 Software Installation",
+    "text": "5.3 Software Installation\nYou will need to install git (and optionally GitHub Desktop, if you do not plan to follow along using the command line):\n\nMain git website to download (with guides for Mac, Windows and Linux) and learn more about git: https://git-scm.com\nGitHub Desktop App: https://desktop.github.com/",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#git-configuration",
+    "href": "03_workshop.html#git-configuration",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.4 Git Configuration",
+    "text": "5.4 Git Configuration\nOn first-time use, name and email address are required to configure git. This differs by whether you are using command line or GitHub Desktop\n\nGitHub Desktop: You will be prompted to configure git when first opening the application.\nCommand Line: You will need to type the following into the console (updating to your login details):\n\ngit config --global user.name \"&lt;username&gt;\"\ngit config --global user.email xxx@example.com",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#github-account",
+    "href": "03_workshop.html#github-account",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.5 GitHub Account",
+    "text": "5.5 GitHub Account\nTo participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.\nOtherwise, please create one following the steps below.\n\nVisit GitHub.\nClick the “Sign up” button.\nProvide an email address and password.\n\nNote: More generally, we recommend that you setup two-factor authentication to secure your account.\n(This is not essential for the workshop).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#files",
+    "href": "03_workshop.html#files",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.6 Files",
+    "text": "5.6 Files\n\nPlease download the following file:\n\nProject files (provided in a zip folder)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#helpful-resources",
+    "href": "03_workshop.html#helpful-resources",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.7 Helpful resources",
+    "text": "5.7 Helpful resources\nThe following resources, from the ‘Introduction to Git’ session, may be helpful for completing the tasks below:\n\nGit glossary\n‘How to’ for common tasks",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#exercise-1-introduction-to-gitgithub",
+    "href": "03_workshop.html#exercise-1-introduction-to-gitgithub",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.8 Exercise 1: Introduction to Git/GitHub",
+    "text": "5.8 Exercise 1: Introduction to Git/GitHub\n\n5.8.1 Creating a repository\nYou have recently joined a team where your manager has asked you to use Git for at the start of a new project, investigating the effectiveness of proton pump inhibitors (PPIs).\nYou will first have to create a repository for this project and then clone this repository to your local computer.\n\nNavigate to GitHub.com and login to your account.\nFind and click the ‘New’ repository button (shown to the right)\nProvide a repository name and description\n\n\nE.g ‘ppi-project’ and ’Repository for project investigating the effectiveness of proton pump inhibitors.\n\n\nTick the box ‘Public’ under repository visibility options\n\n\nNote: this can be changed later and some projects, in practice, may start ‘Private’ and then become ‘Public’ at the point of pre-printing/publication.\n\n\nTick the box ‘Add a README file’\nUnder .gitignore, select ‘R’ from the dropdown menu.\n\n\nNote: you might initially select .gitignore based on the language you anticipate coding the most in and update, as necessary, if other languages are also used.\n\n\nUnder license, select ‘MIT’ from the dropdown menu.\nClick ‘Create repository’\n\n\n\n5.8.2 Cloning a repository\nHaving created the repository, let’s now clone this repository to our local computer.\n\nOn GitHub.com, navigate to the main page of the repository\n\nNote: if following directly from the previous step - this will be the current page.\n\nAbove the list of files, click ‘Code’ and a drop-down menu should appear (see below)\n\n\n\n\n\n\n\nClick ‘Open with GitHub Desktop’ and the prompt below should appear.\nCheck the repository URL refers to https://github.com/YOUR-USERNAME/YOUR-REPOSITORY and specify your own local path (the folder where the repository will be cloned to). Click ‘Clone’.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#exercise-2-basic-git-workflow",
+    "href": "03_workshop.html#exercise-2-basic-git-workflow",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.9 Exercise 2: Basic Git workflow",
+    "text": "5.9 Exercise 2: Basic Git workflow\n\n5.9.1 Initial stage and .gitignore\nYour manager sends you some files that a previous analyst developed for a similar project and asks you to add these flies to your repository.\n\nNavigate to the location where you downloaded the ‘Project’ folder and unzip these files - you should see 4 folders named “code”, “data”, “docs”, “output”.\nCopy or Move these folders to the location where you cloned the repository - your local repository folder should look as below.\n\n\n\n\n\n\n\nReturn to GitHub Desktop. You should now see the code files in the ‘Change Files’ window. Make sure these are ticked, the ‘ticking’ indicates the files are staged.\n\n\n\n\n\n\n\nA note on ‘.gitignores’.\n\n\nIn this case, we’re using fully simulated and are happy for this to be on GitHub.com. However, usually when working with data from a healthcare database we would not want to upload this to GitHub! One way of avoiding this is to add a folder and/or specific file type to our ‘.gitignore’ file - this stops files meeting these criteria being upload. See below, we’ve added a line to the ‘.gitignore’ file - how has this changed the files we had staged?\n\n\n\n\n\n\n\n\n5.9.2 Initial commit and push\n\nAdd a ‘Commit’ message e.g. “Add existing files to repo”. Click ‘Commit to main’.\n\n\n\n\n\n\n\nClick Push Origin in the top right-hand corner within the repository bar. Go to check your repository on GitHub.com and see the files!",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
+    ]
+  },
+  {
+    "objectID": "03_workshop.html#exercise-3-git-across-a-project",
+    "href": "03_workshop.html#exercise-3-git-across-a-project",
+    "title": "5  Git interactive hands-on workshop",
+    "section": "5.10 Exercise 3: Git across a project",
+    "text": "5.10 Exercise 3: Git across a project\n\n5.10.1 Creating and publishing a branch\nAt the next meeting, your manager mentions that this project will be able to use a similar propensity score model to the previous project.\nHowever, in this project, as well as including all the variables in the original propensity score model, they ask you to additionally include a variable representing history of hypertension (called ‘hyper’ in the dataset).\n\nReturn to GitHub Desktop and click ‘Fetch origin’ (nothing should happen if the files are up-to-date, but this is a good habit!).\nTo update this file, we’re going to first create a Branch. Click the ‘Current Branch’ tab within the repository bar and add a name for the Branch e.g. ‘update-pscore’. Click ‘New Branch’\n\n\n\n\n\n\n\nThe following pop-up should appear - Click ‘Create Branch’.\n\n\n\n\n\n\n\nClick ‘Publish Branch’ in the top right-hand corner of the repository bar\n\n\n\n\n\n\n\n\n5.10.2 Updating a file\n\nNavigate to your local repository. Open the ‘code’ subfolder and then open the ‘001_pscore_analysis.R’ file either in R Studio or any text editor available (Notepad, TextEdit, Visual Studio etc).\nWe need to add the hypertension variable (i.e. ‘+ hyper’) to our propensity score model and model diagnostics (Lines 46, 72, 77).\n\n\n\n\n\n\n\nSave the updated file (do not change the file name) and return to GitHub Desktop.\nYou should now see the edited file in the ‘Change Files’ window. Check this file is ticked (staged). Check the correct variable has been added in the diff window.\n\n 5. Add a ‘Commit message’, e.g. ‘Update pscore model’. Click ‘Commit to update-pscore’.\n\n\n\n\n\n\nClick Push Origin in the top right-hand corner within the repository bar.\n\n\n\n5.10.3 Creating a pull request\nNow we have made the changes on our ‘update-pscore’ branch, let’s merge these into the ‘main’ branch.\n\nNavigate to your repository at GitHub.com. Select the ‘Pull requests’ tab.\n\n 2. Click New pull request.\n\n\n\n\n\n\nWe want to compare the ‘main’ branch to our ‘update-pscore’ branch. Select ‘update-pscore’ brnach from the ‘compare’ drop-down menu.\n\n 4. Once the ‘Comparing changes’ page updates to show the update file(s), click Create pull request.\n 5. Add a description about the purpose of the pull request. Click Create pull request.  6. A note on ‘reviewers’. - On the right-hand side of the screenshot above, we can add ‘reviewers’ - members of the team we would like to review the changes before we merge them. To be a reviewer, a person must have a GitHub account and be a collaborator for the repository. Navigate to the ‘Settings’ tab and select ‘Collaborators’ under ‘Access’ heading on the left-hand side. Click ‘Add people’ and you’ll be prompted to enter the GitHub usernames for collaborators. Afterwards, they can be added as ‘reviewers’ and comment on the changes.\n\n\n5.10.4 Merging a pull request\n\nBefore merging, a reviewer would typically comment on the suitability of merging the proposed code. In this case, the changes are minimal and quick to check, therefore a comment as below may be added.\n\n 2. Once we’re happy to merge these changes, we can click ‘Merge pull request’.\n\nWe can see confirmation that this branch has been merged into main and can now safely delete the ‘update-pscore’ branch.\n\n\n\n\n\n\n\n\n5.10.5 Checking merge\n\nNavigate back to GitHub Desktop. Change the ‘Current branch’ to ‘main’.\n\n\n\n\n\n\n\nYou can now ‘Pull’ the changes from the branch we have merged to the main branch on your local computer. Click Pull origin in the top right-hand corner within the repository bar.\n\n\n\n\n\n\n\nNavigate to your local repository folder and see the updated file!",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]
@@ -223,8 +303,8 @@
     "objectID": "03_workshop.html#additional-resources",
     "href": "03_workshop.html#additional-resources",
     "title": "5  Git interactive hands-on workshop",
-    "section": "5.3 Additional Resources",
-    "text": "5.3 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
+    "section": "5.11 Additional Resources",
+    "text": "5.11 Additional Resources\n\nWeberpals, J. & Wang, S. V. The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R. Pharmacoepidemiol. Drug Saf. (2024)\nMorton, C. et al. Software development skills for health data researchers. BMJ Health Care Inform. 29, e100488 (2022).\nBryan, J. Excuse Me, Do You Have a Moment to Talk about Version Control? PeerJ Preprints (2017)\nWebpages:\n\nComprehensive Documentation for Github Desktop\nCheatsheet with common Git commands:\nGit manual by Atlassian (provider of the Bitbucket platform)\nCoursera courses:\n\nIntroduction to Git and GitHub (Google)\nVersion Control with Git (Atlassian)\nGetting Started with Git and GitHub (IBM)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Git interactive hands-on workshop</span>"
     ]

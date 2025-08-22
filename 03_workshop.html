@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="John Tazare">
-<meta name="dcterms.date" content="2025-08-20">
+<meta name="dcterms.date" content="2025-08-22">
 
 <title>5&nbsp; Git interactive hands-on workshop – Let's git it started</title>
 <style>
@@ -170,14 +170,31 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#session-introduction" id="toc-session-introduction" class="nav-link active" data-scroll-target="#session-introduction"><span class="header-section-number">5.1</span> Session Introduction</a></li>
-  <li><a href="#workshop-materials" id="toc-workshop-materials" class="nav-link" data-scroll-target="#workshop-materials"><span class="header-section-number">5.2</span> Workshop Materials</a>
+  <li><a href="#workshop-materials" id="toc-workshop-materials" class="nav-link" data-scroll-target="#workshop-materials"><span class="header-section-number">5.2</span> Workshop Materials</a></li>
+  <li><a href="#software-installation" id="toc-software-installation" class="nav-link" data-scroll-target="#software-installation"><span class="header-section-number">5.3</span> Software Installation</a></li>
+  <li><a href="#git-configuration" id="toc-git-configuration" class="nav-link" data-scroll-target="#git-configuration"><span class="header-section-number">5.4</span> Git Configuration</a></li>
+  <li><a href="#github-account" id="toc-github-account" class="nav-link" data-scroll-target="#github-account"><span class="header-section-number">5.5</span> GitHub Account</a></li>
+  <li><a href="#files" id="toc-files" class="nav-link" data-scroll-target="#files"><span class="header-section-number">5.6</span> Files</a></li>
+  <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources"><span class="header-section-number">5.7</span> Helpful resources</a></li>
+  <li><a href="#exercise-1-introduction-to-gitgithub" id="toc-exercise-1-introduction-to-gitgithub" class="nav-link" data-scroll-target="#exercise-1-introduction-to-gitgithub"><span class="header-section-number">5.8</span> Exercise 1: Introduction to Git/GitHub</a>
   <ul class="collapse">
-  <li><a href="#software-installation" id="toc-software-installation" class="nav-link" data-scroll-target="#software-installation"><span class="header-section-number">5.2.1</span> Software Installation</a></li>
-  <li><a href="#git-configuration" id="toc-git-configuration" class="nav-link" data-scroll-target="#git-configuration"><span class="header-section-number">5.2.2</span> Git Configuration</a></li>
-  <li><a href="#github-account" id="toc-github-account" class="nav-link" data-scroll-target="#github-account"><span class="header-section-number">5.2.3</span> GitHub Account</a></li>
-  <li><a href="#files" id="toc-files" class="nav-link" data-scroll-target="#files"><span class="header-section-number">5.2.4</span> Files</a></li>
+  <li><a href="#creating-a-repository" id="toc-creating-a-repository" class="nav-link" data-scroll-target="#creating-a-repository"><span class="header-section-number">5.8.1</span> Creating a repository</a></li>
+  <li><a href="#cloning-a-repository" id="toc-cloning-a-repository" class="nav-link" data-scroll-target="#cloning-a-repository"><span class="header-section-number">5.8.2</span> Cloning a repository</a></li>
   </ul></li>
-  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">5.3</span> Additional Resources</a></li>
+  <li><a href="#exercise-2-basic-git-workflow" id="toc-exercise-2-basic-git-workflow" class="nav-link" data-scroll-target="#exercise-2-basic-git-workflow"><span class="header-section-number">5.9</span> Exercise 2: Basic Git workflow</a>
+  <ul class="collapse">
+  <li><a href="#initial-stage-and-.gitignore" id="toc-initial-stage-and-.gitignore" class="nav-link" data-scroll-target="#initial-stage-and-.gitignore"><span class="header-section-number">5.9.1</span> Initial stage and .gitignore</a></li>
+  <li><a href="#initial-commit-and-push" id="toc-initial-commit-and-push" class="nav-link" data-scroll-target="#initial-commit-and-push"><span class="header-section-number">5.9.2</span> Initial commit and push</a></li>
+  </ul></li>
+  <li><a href="#exercise-3-git-across-a-project" id="toc-exercise-3-git-across-a-project" class="nav-link" data-scroll-target="#exercise-3-git-across-a-project"><span class="header-section-number">5.10</span> Exercise 3: Git across a project</a>
+  <ul class="collapse">
+  <li><a href="#creating-and-publishing-a-branch" id="toc-creating-and-publishing-a-branch" class="nav-link" data-scroll-target="#creating-and-publishing-a-branch"><span class="header-section-number">5.10.1</span> Creating and publishing a branch</a></li>
+  <li><a href="#updating-a-file" id="toc-updating-a-file" class="nav-link" data-scroll-target="#updating-a-file"><span class="header-section-number">5.10.2</span> Updating a file</a></li>
+  <li><a href="#creating-a-pull-request" id="toc-creating-a-pull-request" class="nav-link" data-scroll-target="#creating-a-pull-request"><span class="header-section-number">5.10.3</span> Creating a pull request</a></li>
+  <li><a href="#merging-a-pull-request" id="toc-merging-a-pull-request" class="nav-link" data-scroll-target="#merging-a-pull-request"><span class="header-section-number">5.10.4</span> Merging a pull request</a></li>
+  <li><a href="#checking-merge" id="toc-checking-merge" class="nav-link" data-scroll-target="#checking-merge"><span class="header-section-number">5.10.5</span> Checking merge</a></li>
+  </ul></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">5.11</span> Additional Resources</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/janickweberpals/icpe-git-2025/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -203,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 20, 2025</p>
+      <p class="date">August 22, 2025</p>
     </div>
   </div>
   
@@ -223,26 +240,27 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="5.2" class="anchored" data-anchor-id="workshop-materials"><span class="header-section-number">5.2</span> Workshop Materials</h2>
 <p>Please ensure you have completed the following setup steps for participating in this workshop before attempting the tasks described in subsequent sections.</p>
 <p>Alternatively, follow the <code>git</code> and GitHub sections of the Technical Setup on the course webpage <a href="https://janickweberpals.github.io/icpe-git-2025/syllabus.html#technical-setup">here</a></p>
-<section id="software-installation" class="level3" data-number="5.2.1">
-<h3 data-number="5.2.1" class="anchored" data-anchor-id="software-installation"><span class="header-section-number">5.2.1</span> Software Installation</h3>
+</section>
+<section id="software-installation" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="software-installation"><span class="header-section-number">5.3</span> Software Installation</h2>
 <p>You will need to install <code>git</code> (and optionally GitHub Desktop, if you do not plan to follow along using the command line):</p>
 <ul>
 <li><p>Main <code>git</code> website to download (with guides for Mac, Windows and Linux) and learn more about <code>git:</code> <a href="https://git-scm.com" class="uri">https://git-scm.com</a></p></li>
 <li><p>GitHub Desktop App: <a href="https://desktop.github.com/" class="uri">https://desktop.github.com/</a></p></li>
 </ul>
 </section>
-<section id="git-configuration" class="level3" data-number="5.2.2">
-<h3 data-number="5.2.2" class="anchored" data-anchor-id="git-configuration"><span class="header-section-number">5.2.2</span> Git Configuration</h3>
+<section id="git-configuration" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="git-configuration"><span class="header-section-number">5.4</span> Git Configuration</h2>
 <p>On first-time use, name and email address are required to configure <code>git</code>. This differs by whether you are using command line or GitHub Desktop</p>
 <ul>
 <li><p>GitHub Desktop: You will be prompted to configure <code>git</code> when first opening the application.</p></li>
-<li><p>Command Line: You will need to type the followiing into the console (updating to your login details):</p></li>
+<li><p>Command Line: You will need to type the following into the console (updating to your login details):</p></li>
 </ul>
 <pre><code>git config --global user.name "&lt;username&gt;"
 git config --global user.email xxx@example.com</code></pre>
 </section>
-<section id="github-account" class="level3" data-number="5.2.3">
-<h3 data-number="5.2.3" class="anchored" data-anchor-id="github-account"><span class="header-section-number">5.2.3</span> GitHub Account</h3>
+<section id="github-account" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="github-account"><span class="header-section-number">5.5</span> GitHub Account</h2>
 <p>To participate in the workshop you will require a GitHub account. If you have an existing GitHub account, you can use this.</p>
 <p>Otherwise, please create one following the steps below.</p>
 <ol type="1">
@@ -250,21 +268,253 @@ git config --global user.email xxx@example.com</code></pre>
 <li>Click the “Sign up” button.</li>
 <li>Provide an email address and password.</li>
 </ol>
-<p>Note: More generally, we recommend that you <a href="https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa">setup two-factor authentication to secure your account</a>. <strong>(This is not essential for the workshop).</strong></p>
+<p>Note: More generally, we recommend that you <a href="https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa">setup two-factor authentication to secure your account</a>.</p>
+<p><strong>(This is not essential for the workshop).</strong></p>
 </section>
-<section id="files" class="level3" data-number="5.2.4">
-<h3 data-number="5.2.4" class="anchored" data-anchor-id="files"><span class="header-section-number">5.2.4</span> Files</h3>
+<section id="files" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="files"><span class="header-section-number">5.6</span> Files</h2>
 <ul>
-<li>Please download the following two files:
+<li>Please download the following file:
 <ul>
-<li><a href="https://drive.google.com/file/d/1RmYvFtgmztCFlIu_wYJBIct5cTYA87Jh/view?usp=share_link">Instructions (provided as a rendered html file)</a></li>
-<li><a href="https://drive.google.com/file/d/1CF6kZJFO6__4W-NtVQ43RyyZjj2phyoe/view?usp=share_link">Project files (provided in zip folder)</a></li>
+<li><a href="https://drive.google.com/file/d/1CF6kZJFO6__4W-NtVQ43RyyZjj2phyoe/view?usp=share_link">Project files (provided in a zip folder)</a></li>
 </ul></li>
 </ul>
 </section>
+<section id="helpful-resources" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="helpful-resources"><span class="header-section-number">5.7</span> Helpful resources</h2>
+<p>The following resources, from the ‘Introduction to Git’ session, may be helpful for completing the tasks below:</p>
+<ul>
+<li><a href="https://janickweberpals.github.io/icpe-git-2025/02_intro.html#git-glossary">Git glossary</a></li>
+<li><a href="https://janickweberpals.github.io/icpe-git-2025/02_intro.html#how-to-for-common-tasks">‘How to’ for common tasks</a></li>
+</ul>
 </section>
-<section id="additional-resources" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">5.3</span> Additional Resources</h2>
+<section id="exercise-1-introduction-to-gitgithub" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="exercise-1-introduction-to-gitgithub"><span class="header-section-number">5.8</span> Exercise 1: Introduction to Git/GitHub</h2>
+<section id="creating-a-repository" class="level3" data-number="5.8.1">
+<h3 data-number="5.8.1" class="anchored" data-anchor-id="creating-a-repository"><span class="header-section-number">5.8.1</span> Creating a repository</h3>
+<p>You have recently joined a team where your manager has asked you to use Git for at the start of a new project, investigating the effectiveness of proton pump inhibitors (PPIs).</p>
+<p>You will first have to <strong>create a repository</strong> for this project and then <strong>clone this repository</strong> to your local computer.</p>
+<ol type="1">
+<li><p>Navigate to <a href="www.github.com">GitHub.com</a> and login to your account.</p></li>
+<li><p>Find and click the <strong>‘New’</strong> repository button (shown to the right)</p></li>
+<li><p>Provide a <strong>repository name</strong> and <strong>description</strong></p></li>
+</ol>
+<ul>
+<li>E.g ‘ppi-project’ and ’Repository for project investigating the effectiveness of proton pump inhibitors.</li>
+</ul>
+<ol start="4" type="1">
+<li>Tick the box <strong>‘Public’</strong> under repository visibility options</li>
+</ol>
+<ul>
+<li>Note: this can be changed later and some projects, in practice, may start ‘Private’ and then become ‘Public’ at the point of pre-printing/publication.</li>
+</ul>
+<ol start="5" type="1">
+<li><p>Tick the box <strong>‘Add a README file’</strong></p></li>
+<li><p>Under .gitignore, select ‘R’ from the dropdown menu.</p></li>
+</ol>
+<ul>
+<li>Note: you might initially select .gitignore based on the language you anticipate coding the most in and update, as necessary, if other languages are also used.</li>
+</ul>
+<ol start="7" type="1">
+<li><p>Under license, select <strong>‘MIT’</strong> from the dropdown menu.</p></li>
+<li><p>Click <strong>‘Create repository’</strong></p></li>
+</ol>
+</section>
+<section id="cloning-a-repository" class="level3" data-number="5.8.2">
+<h3 data-number="5.8.2" class="anchored" data-anchor-id="cloning-a-repository"><span class="header-section-number">5.8.2</span> Cloning a repository</h3>
+<p>Having created the repository, let’s now clone this repository to our local computer.</p>
+<ol type="1">
+<li>On <a href="www.github.com">GitHub.com</a>, navigate to the <strong>main page of the repository</strong>
+<ul>
+<li>Note: if following directly from the previous step - this will be the current page.</li>
+</ul></li>
+<li>Above the list of files, click <strong>‘Code’</strong> and a drop-down menu should appear (see below)</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/git-clone.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><p>Click <strong>‘Open with GitHub Desktop’</strong> and the prompt below should appear.</p></li>
+<li><p>Check the repository URL refers to <a href="">https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</a> and specify your own local path (the folder where the repository will be cloned to). Click <strong>‘Clone’</strong>.</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/git-clone-gh.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="exercise-2-basic-git-workflow" class="level2" data-number="5.9">
+<h2 data-number="5.9" class="anchored" data-anchor-id="exercise-2-basic-git-workflow"><span class="header-section-number">5.9</span> Exercise 2: Basic Git workflow</h2>
+<section id="initial-stage-and-.gitignore" class="level3" data-number="5.9.1">
+<h3 data-number="5.9.1" class="anchored" data-anchor-id="initial-stage-and-.gitignore"><span class="header-section-number">5.9.1</span> Initial stage and .gitignore</h3>
+<p>Your manager sends you some files that a previous analyst developed for a similar project and asks you to <strong>add these flies to your repository</strong>.</p>
+<ol type="1">
+<li><p>Navigate to the location where you downloaded the ‘Project’ folder and unzip these files - you should see 4 folders named “code”, “data”, “docs”, “output”.</p></li>
+<li><p><strong>Copy</strong> or <strong>Move</strong> these folders to the location where you cloned the repository - your local repository folder should look as below.</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/repo-files.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Return to <strong>GitHub Desktop</strong>. You should now see the code files in the <strong>‘Change Files’</strong> window. Make sure these are ticked, the ‘ticking’ indicates the files are <strong>staged</strong>.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-staged.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="4" type="1">
+<li><strong>A note on ‘.gitignores’.</strong></li>
+</ol>
+<ul>
+<li>In this case, we’re using fully simulated and are happy for this to be on GitHub.com. However, usually when working with data from a healthcare database we would <strong>not</strong> want to upload this to GitHub! One way of avoiding this is to add a folder and/or specific file type to our ‘.gitignore’ file - this stops files meeting these criteria being upload. See below, we’ve added a line to the ‘.gitignore’ file - how has this changed the files we had <strong>staged</strong>?</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-staged-gitignore.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="initial-commit-and-push" class="level3" data-number="5.9.2">
+<h3 data-number="5.9.2" class="anchored" data-anchor-id="initial-commit-and-push"><span class="header-section-number">5.9.2</span> Initial commit and push</h3>
+<ol start="5" type="1">
+<li><strong>Add a ‘Commit’ message</strong> e.g.&nbsp;“Add existing files to repo”. Click <strong>‘Commit to main’</strong>.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-staged-msg.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="6" type="1">
+<li>Click <strong>Push Origin</strong> in the top right-hand corner within the repository bar. Go to check your repository on GitHub.com and see the files!</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-push.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="exercise-3-git-across-a-project" class="level2" data-number="5.10">
+<h2 data-number="5.10" class="anchored" data-anchor-id="exercise-3-git-across-a-project"><span class="header-section-number">5.10</span> Exercise 3: Git across a project</h2>
+<section id="creating-and-publishing-a-branch" class="level3" data-number="5.10.1">
+<h3 data-number="5.10.1" class="anchored" data-anchor-id="creating-and-publishing-a-branch"><span class="header-section-number">5.10.1</span> Creating and publishing a branch</h3>
+<p>At the next meeting, your manager mentions that this project will be able to use a similar propensity score model to the previous project.</p>
+<p>However, in this project, as well as including all the variables in the original propensity score model, they ask you to additionally include a variable representing history of hypertension (called ‘hyper’ in the dataset).</p>
+<ol type="1">
+<li><p>Return to GitHub Desktop and click <strong>‘Fetch origin’</strong> (nothing should happen if the files are up-to-date, but this is a good habit!).</p></li>
+<li><p>To update this file, we’re going to first <strong>create a Branch</strong>. Click the ‘Current Branch’ tab within the repository bar and <strong>add a name for the Branch</strong> e.g.&nbsp;‘update-pscore’. Click <strong>‘New Branch’</strong></p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-new-branch.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>The following pop-up should appear - Click <strong>‘Create Branch’</strong>.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-create-branch.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>Click <strong>‘Publish Branch’</strong> in the top right-hand corner of the repository bar</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-publish-branch.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="updating-a-file" class="level3" data-number="5.10.2">
+<h3 data-number="5.10.2" class="anchored" data-anchor-id="updating-a-file"><span class="header-section-number">5.10.2</span> Updating a file</h3>
+<ol type="1">
+<li><p>Navigate to your local repository. Open the ‘code’ subfolder and then open the <strong>‘001_pscore_analysis.R’</strong> file either in R Studio or any text editor available (Notepad, TextEdit, Visual Studio etc).</p></li>
+<li><p>We need to add the hypertension variable (i.e.&nbsp;‘+ hyper’) to our propensity score model and model diagnostics (Lines 46, 72, 77).</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/add-pscore.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><p>Save the updated file (do not change the file name) and return to GitHub Desktop.</p></li>
+<li><p>You should now see the edited file in the <strong>‘Change Files’</strong> window. Check this file is ticked (<strong>staged</strong>). Check the correct variable has been added in the diff window.</p></li>
+</ol>
+<p><img src="images/workshop/ghd-update-file.png" class="img-fluid quarto-figure quarto-figure-center"> 5. Add a <strong>‘Commit message’</strong>, e.g.&nbsp;‘Update pscore model’. Click <strong>‘Commit to update-pscore’</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-update-file-commit.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="6" type="1">
+<li>Click <strong>Push Origin</strong> in the top right-hand corner within the repository bar.</li>
+</ol>
+</section>
+<section id="creating-a-pull-request" class="level3" data-number="5.10.3">
+<h3 data-number="5.10.3" class="anchored" data-anchor-id="creating-a-pull-request"><span class="header-section-number">5.10.3</span> Creating a pull request</h3>
+<p>Now we have made the changes on our ‘update-pscore’ branch, let’s merge these into the ‘main’ branch.</p>
+<ol type="1">
+<li>Navigate to your repository at GitHub.com. Select the <strong>‘Pull requests’</strong> tab.</li>
+</ol>
+<p><img src="images/workshop/gh-pr.png" class="img-fluid quarto-figure quarto-figure-center"> 2. Click <strong>New pull request</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/gh-pr-tab.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>We want to compare the ‘main’ branch to our ‘update-pscore’ branch. Select ‘update-pscore’ brnach from the <strong>‘compare’ drop-down menu</strong>.</li>
+</ol>
+<p><img src="images/workshop/gh-pr-select-branch.png" class="img-fluid quarto-figure quarto-figure-center"> 4. Once the ‘Comparing changes’ page updates to show the update file(s), click <strong>Create pull request</strong>.</p>
+<p><img src="images/workshop/gh-pr-compare-changes.png" class="img-fluid quarto-figure quarto-figure-center"> 5. Add a description about the purpose of the pull request. Click <strong>Create pull request</strong>. <img src="images/workshop/gh-pr-doc-changes.png" class="img-fluid quarto-figure quarto-figure-center"> 6. <strong>A note on ‘reviewers’.</strong> - On the right-hand side of the screenshot above, we can add <strong>‘reviewers’</strong> - members of the team we would like to review the changes before we merge them. To be a reviewer, a person must have a GitHub account and be a collaborator for the repository. Navigate to the ‘Settings’ tab and select ‘Collaborators’ under ‘Access’ heading on the left-hand side. Click ‘Add people’ and you’ll be prompted to enter the GitHub usernames for collaborators. Afterwards, they can be added as ‘reviewers’ and comment on the changes.</p>
+</section>
+<section id="merging-a-pull-request" class="level3" data-number="5.10.4">
+<h3 data-number="5.10.4" class="anchored" data-anchor-id="merging-a-pull-request"><span class="header-section-number">5.10.4</span> Merging a pull request</h3>
+<ol type="1">
+<li>Before merging, a reviewer would typically comment on the suitability of merging the proposed code. In this case, the changes are minimal and quick to check, therefore a comment as below may be added.</li>
+</ol>
+<p><img src="images/workshop/gh-merge-comment.png" class="img-fluid quarto-figure quarto-figure-center"> 2. Once we’re happy to merge these changes, we can click <strong>‘Merge pull request’</strong>.</p>
+<ol start="3" type="1">
+<li>We can see confirmation that this branch has been merged into <strong>main</strong> and can now safely delete the ‘update-pscore’ branch.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/gh-merge-closed.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="checking-merge" class="level3" data-number="5.10.5">
+<h3 data-number="5.10.5" class="anchored" data-anchor-id="checking-merge"><span class="header-section-number">5.10.5</span> Checking merge</h3>
+<ol type="1">
+<li>Navigate back to GitHub Desktop. Change the ‘Current branch’ to ‘main’.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-pr-back-to-main.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>You can now ‘Pull’ the changes from the branch we have merged to the main branch on your local computer. Click <strong>Pull origin</strong> in the top right-hand corner within the repository bar.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/workshop/ghd-pr-pull.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Navigate to your local repository folder and see the updated file!</li>
+</ol>
+</section>
+</section>
+<section id="additional-resources" class="level2" data-number="5.11">
+<h2 data-number="5.11" class="anchored" data-anchor-id="additional-resources"><span class="header-section-number">5.11</span> Additional Resources</h2>
 <ul>
 <li><p>Weberpals, J. &amp; Wang, S. V. <a href="https://doi.org/10.1002/pds.5740">The FAIRification of research in real-world evidence: A practical introduction to reproducible analytic workflows using Git and R</a>. <em>Pharmacoepidemiol. Drug Saf.</em> (2024)</p></li>
 <li><p>Morton, C. <em>et al.</em> <a href="https://informatics.bmj.com/content/29/1/e100488">Software development skills for health data researchers</a>. <em>BMJ Health Care Inform.</em> <strong>29</strong>, e100488 (2022).</p></li>
